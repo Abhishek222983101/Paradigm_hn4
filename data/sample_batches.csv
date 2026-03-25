@@ -1,0 +1,11 @@
+batch_id,material_type,source_vendor,collection_date,total_input_kg,total_output_kg,status,confidence_score
+B-2801,PET,GreenCorp Recycling,2024-01-15,500,380,dispatched,85
+B-2802,HDPE,EcoWaste Solutions,2024-01-18,350,290,dispatched,80
+B-2803,PP,RecycleFirst Ltd,2024-01-22,200,165,dispatched,75
+B-2804,PET,CleanPlast Industries,2024-02-01,800,620,dispatched,82
+B-2805,Mixed,Urban Waste Co,2024-02-05,450,310,processing,65
+B-2806,HDPE,GreenCorp Recycling,2024-02-10,600,480,dispatched,78
+B-2807,PET,EcoWaste Solutions,2024-02-14,350,280,dispatched,81
+B-2808,PP,CleanPlast Industries,2024-02-18,400,320,dispatched,79
+B-2809,LDPE,RecycleFirst Ltd,2024-02-22,250,195,sorting,45
+B-2810,Mixed,Urban Waste Co,2024-02-25,550,0,collection,20

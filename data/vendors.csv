@@ -1,0 +1,6 @@
+vendor_id,name,location,material_types,reliability_score
+1,GreenCorp Recycling,Mumbai,PET;HDPE,0.92
+2,EcoWaste Solutions,Delhi,PP;LDPE,0.88
+3,RecycleFirst Ltd,Bangalore,Mixed,0.85
+4,CleanPlast Industries,Chennai,PET;PP,0.90
+5,Urban Waste Co,Hyderabad,HDPE;LDPE,0.82
