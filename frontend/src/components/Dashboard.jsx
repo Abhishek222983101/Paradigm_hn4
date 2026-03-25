@@ -1,6 +1,7 @@
-import React from 'react'
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, Legend } from 'recharts'
-import { Package, TrendingUp, AlertTriangle, CheckCircle } from 'lucide-react'
+import React, { useState } from 'react'
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, Legend, LineChart, Line, ComposedChart, Area } from 'recharts'
+import { Package, TrendingUp, AlertTriangle, CheckCircle, Activity, Layers } from 'lucide-react'
+import SankeyDiagram from './SankeyDiagram'
 
 const COLORS = ['#10b981', '#3b82f6', '#f59e0b', '#ef4444', '#8b5cf6']
 
@@ -158,6 +159,8 @@ function Dashboard({ data }) {
           </div>
         </div>
       )}
+
+      <SankeyDiagram />
     </div>
   )
 }
