@@ -18,6 +18,7 @@ from backend.database import (
 from backend.nlp_engine import NLPEngine, QueryParser
 from backend.insights import InsightEngine
 from backend.seed_data import seed_database
+from backend.ai_service import ai_service
 
 app = FastAPI(
     title="TraceLoop API",
@@ -439,6 +440,49 @@ def list_locations():
 def get_chat_history(limit: int = 20):
     history = ChatHistoryRepository.get_recent(limit)
     return {"history": history}
+
+@app.post("/api/ai/classify")
+async def ai_classify_intent(request: ChatRequest):
+    result = await ai_service.classify_intent(request.text)
+    return {"text": request.text, "classification": result}
+
+@app.post("/api/ai/extract")
+async def ai_extract_entities(request: ChatRequest):
+    entities = await ai_service.extract_entities(request.text)
+    return {"text": request.text, "entities": entities}
+
+@app.get("/api/ai/insight/{batch_id}")
+async def ai_generate_insight(batch_id: str):
+    batch = BatchRepository.get(batch_id)
+    if not batch:
+        raise HTTPException(status_code=404, detail="Batch not found")
+    
+    batch_dict = dict(batch)
+    insight = await ai_service.generate_insight(batch_dict)
+    
+    return {
+        "batch_id": batch_id,
+        "ai_insight": insight,
+        "generated_at": datetime.now().isoformat()
+    }
+
+@app.get("/api/ai/suggest")
+async def ai_suggest_action():
+    dashboard = get_dashboard_data()
+    
+    context = {
+        "total_batches": dashboard["summary"]["total_batches"],
+        "average_yield": dashboard["summary"]["overall_yield_percent"],
+        "high_loss_count": sum(1 for s in dashboard["stage_flow"] if s.get("loss", 0) > 100),
+        "pending_qc": dashboard["status_summary"].get("PENDING", 0)
+    }
+    
+    suggestion = await ai_service.suggest_action(context)
+    
+    return {
+        "context": context,
+        "suggestion": suggestion
+    }
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
