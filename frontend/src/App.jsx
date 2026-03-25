@@ -3,7 +3,8 @@ import axios from 'axios'
 import ChatPanel from './components/ChatPanel'
 import Dashboard from './components/Dashboard'
 import BatchList from './components/BatchList'
-import { Recycle, BarChart3, MessageCircle, Database } from 'lucide-react'
+import AnomalyAlerts from './components/AnomalyAlerts'
+import { Recycle, BarChart3, MessageCircle, Database, AlertTriangle } from 'lucide-react'
 
 const API_BASE = 'http://localhost:8000/api'
 
@@ -31,6 +32,7 @@ function App() {
     { id: 'dashboard', label: 'Dashboard', icon: BarChart3 },
     { id: 'chat', label: 'Chat', icon: MessageCircle },
     { id: 'batches', label: 'Batches', icon: Database },
+    { id: 'anomalies', label: 'Alerts', icon: AlertTriangle },
   ]
 
   return (
@@ -81,6 +83,9 @@ function App() {
             )}
             {activeTab === 'batches' && (
               <BatchList />
+            )}
+            {activeTab === 'anomalies' && (
+              <AnomalyAlerts />
             )}
           </>
         )}

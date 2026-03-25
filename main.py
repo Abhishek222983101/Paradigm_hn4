@@ -19,6 +19,7 @@ from backend.nlp_engine import NLPEngine, QueryParser
 from backend.insights import InsightEngine
 from backend.seed_data import seed_database
 from backend.ai_service import ai_service
+from backend.anomaly_detector import AnomalyDetector
 
 app = FastAPI(
     title="TraceLoop API",
@@ -483,6 +484,72 @@ async def ai_suggest_action():
         "context": context,
         "suggestion": suggestion
     }
+
+@app.get("/api/anomalies")
+def detect_anomalies(batch_id: Optional[str] = None):
+    conn = get_connection()
+    detector = AnomalyDetector(conn)
+    anomalies = detector.detect_all(batch_id)
+    stats = detector.get_statistics()
+    conn.close()
+    
+    return {
+        "anomalies": [
+            {
+                "anomaly_id": a.anomaly_id,
+                "type": a.anomaly_type.value,
+                "severity": a.severity.value,
+                "batch_id": a.batch_id,
+                "stage": a.stage,
+                "message": a.message,
+                "details": a.details,
+                "detected_at": a.detected_at,
+                "recommendation": a.recommendation
+            }
+            for a in anomalies
+        ],
+        "statistics": stats
+    }
+
+@app.get("/api/anomalies/batch/{batch_id}")
+def detect_batch_anomalies(batch_id: str):
+    batch = BatchRepository.get(batch_id)
+    if not batch:
+        raise HTTPException(status_code=404, detail="Batch not found")
+    
+    conn = get_connection()
+    detector = AnomalyDetector(conn)
+    anomalies = detector.detect_all(batch_id)
+    stats = detector.get_statistics()
+    conn.close()
+    
+    return {
+        "batch_id": batch_id,
+        "anomalies": [
+            {
+                "anomaly_id": a.anomaly_id,
+                "type": a.anomaly_type.value,
+                "severity": a.severity.value,
+                "stage": a.stage,
+                "message": a.message,
+                "details": a.details,
+                "detected_at": a.detected_at,
+                "recommendation": a.recommendation
+            }
+            for a in anomalies
+        ],
+        "statistics": stats
+    }
+
+@app.get("/api/anomalies/recommendations")
+def get_anomaly_recommendations():
+    conn = get_connection()
+    detector = AnomalyDetector(conn)
+    detector.detect_all()
+    recommendations = detector.get_recommendations()
+    conn.close()
+    
+    return {"recommendations": recommendations}
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
