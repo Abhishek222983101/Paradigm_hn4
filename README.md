@@ -1,12 +1,12 @@
-# ♻️ TraceLoop — Intelligent Traceability for Recycled Materials
+# ♻️ TraceFlow — Intelligent Traceability for Recycled Materials
 
 > AI-powered end-to-end material tracking system for the circular economy. From waste collection to final dispatch — transparent, trustworthy, and conversational.
 
 ---
 
-## What is TraceLoop?
+## What is TraceFlow?
 
-TraceLoop is an intelligent traceability management system for recycled plastic materials. It replaces rigid forms, fragmented spreadsheets, and manual data entry with a conversational AI interface and a live visual dashboard that tracks every kilogram of material from collection to dispatch.
+TraceFlow is an intelligent traceability management system for recycled plastic materials. It replaces rigid forms, fragmented spreadsheets, and manual data entry with a conversational AI interface and a live visual dashboard that tracks every kilogram of material from collection to dispatch.
 
 Built for recycling facilities, regulators, and sustainability stakeholders who need **accurate, accessible, and trustworthy** lifecycle data.
 
@@ -23,7 +23,7 @@ Current systems suffer from:
 - Dashboards that non-technical stakeholders can't interpret
 - No trust signals — regulators can't verify data completeness or reliability
 
-TraceLoop fixes all of this.
+TraceFlow fixes all of this.
 
 ---
 
@@ -104,7 +104,7 @@ At every stage transition, the system records:
 ## Project Structure
 
 ```
-traceloop/
+TraceFlow/
 ├── backend/
 │   ├── main.py              # FastAPI app — /ingest, /dashboard-data, /insights
 │   ├── database.py          # SQLite setup and queries
