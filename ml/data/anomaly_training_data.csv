@@ -1,0 +1,2001 @@
+process_mode,loss_percent,quantity,is_anomaly,anomaly_type,reason,severity
+QUALITY_CONTROL,-22.14,1476.36,True,impossible_yield,Yield exceeds 100% - data entry error,high
+QC_FAIL,100.0,586.24,False,,,low
+QC_FAIL,100.0,1028.34,False,,,low
+QUALITY_CONTROL,22.64,2650.15,False,,,low
+RECYCLING,12.5,195.54,False,,,low
+SEGREGATION,7.28,452.84,False,,,low
+QC_FAIL,100.0,962.0,False,,,low
+INWARD,6.71,464964.89,True,extreme_quantity_high,Unusually large quantity (464965kg) for single processing batch,medium
+QUALITY_CONTROL,0.06,1815.5,False,,,low
+TRANSFER,1.62,431.69,False,,,low
+BALING,0.71,166.63,False,,,low
+QC_PASS,0.0,401.8,False,,,low
+QC_PASS,0.0,317.33,False,,,low
+TRANSFER,0.0,446.17,False,,,low
+RECYCLING,10.38,140.07,False,,,low
+SEGREGATION,14.25,4316.77,False,,,low
+BALING,0.47,240.51,False,,,low
+QC_FAIL,100.0,792.48,False,,,low
+MIXING,-6.01,1533.31,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QC_PASS,-35.03,1106.83,True,impossible_yield,Yield exceeds 100% - data entry error,high
+QUALITY_CONTROL,10.34,495.83,False,,,low
+TRANSFER,-25.39,1980.77,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+TRANSFER,30.81,1167.68,True,process_mismatch,High loss (30.8%) for TRANSFER operation (should be <3%),high
+QC_FAIL,100.0,759.14,False,,,low
+TRANSFER,32.5,658.2,True,process_mismatch,High loss (32.5%) for TRANSFER operation (should be <3%),high
+SEGREGATION,4.58,568.71,False,,,low
+PRODUCTION,3.15,507.6,False,,,low
+TRANSFER,0.84,507.63,False,,,low
+TRANSFER,1.68,100.0,False,,,low
+MANUFACTURING,3.14,441.96,False,,,low
+INWARD,0.0,340.38,False,,,low
+RECEIPT,0.0,160.05,False,,,low
+TRANSFER,0.59,1724.81,False,,,low
+WASHING,4.74,786.1,False,,,low
+QC_PASS,0.0,375.68,False,,,low
+RECYCLING,3.99,258.38,False,,,low
+TRANSFER,-13.98,1891.84,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QC_PASS,0.0,321.56,False,,,low
+QC_PASS,0.0,545.73,False,,,low
+WASHING,11.97,768.21,False,,,low
+INWARD,0.0,1705.73,False,,,low
+TRANSFER,30.84,1237.94,True,process_mismatch,High loss (30.8%) for TRANSFER operation (should be <3%),high
+QC_FAIL,100.0,5000.0,False,,,low
+SEGREGATION,14.79,348.6,False,,,low
+BALING,47.3,576.69,True,high_loss,Unusually high loss (47.3%) for BALING,medium
+TRANSFER,0.58,164.85,False,,,low
+TRANSFER,1.64,598.0,False,,,low
+QUALITY_CONTROL,28.95,807.1,False,,,low
+BALING,0.66,483.03,False,,,low
+MIXING,-7.92,103.71,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+WASHING,60.74,1612.7,True,high_loss,Unusually high loss (60.7%) for WASHING,high
+WASHING,3.85,2001.69,False,,,low
+RECEIPT,0.0,1488.98,False,,,low
+RECYCLING,8.46,299.24,False,,,low
+SEGREGATION,2.36,969.12,False,,,low
+SEGREGATION,7.47,223652.35,True,extreme_quantity_high,Unusually large quantity (223652kg) for single processing batch,medium
+TRANSFER,1.47,1425.88,False,,,low
+BALING,7.18,228154.99,True,extreme_quantity_high,Unusually large quantity (228155kg) for single processing batch,medium
+BALING,0.64,1897.86,False,,,low
+RECEIPT,0.0,252.81,False,,,low
+MIXING,1.55,3029.4,False,,,low
+WASHING,9.35,384.05,False,,,low
+WASHING,-15.19,1289.96,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+MANUFACTURING,3.0,730.82,False,,,low
+TRANSFER,40.0,1554.11,True,process_mismatch,High loss (40.0%) for TRANSFER operation (should be <3%),high
+RECYCLING,-39.71,1195.48,True,impossible_yield,Yield exceeds 100% - data entry error,high
+SEGREGATION,1.8,1823.8,False,,,low
+MIXING,51.62,1908.46,True,high_loss,Unusually high loss (51.6%) for MIXING,high
+QUALITY_CONTROL,11.44,680.86,False,,,low
+MIXING,1.55,328.47,False,,,low
+SEGREGATION,1.35,959.79,False,,,low
+RECEIPT,0.0,487.7,False,,,low
+MANUFACTURING,3.5,492.19,False,,,low
+RECEIPT,0.0,1359.06,False,,,low
+WASHING,3.65,489.06,False,,,low
+QC_FAIL,100.0,262.53,False,,,low
+BALING,-24.04,747.52,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+RECYCLING,10.93,626.73,False,,,low
+INWARD,0.0,996.7,False,,,low
+QUALITY_CONTROL,4.99,1.09,True,extreme_quantity_low,Unusually small quantity (1.09kg) - inefficient processing,low
+PRODUCTION,1.24,2614.49,False,,,low
+RECYCLING,4.5,168.32,False,,,low
+RECEIPT,0.0,447.66,False,,,low
+PRODUCTION,37.73,983.16,True,high_loss,Unusually high loss (37.7%) for PRODUCTION,medium
+MIXING,4.79,194820.41,True,extreme_quantity_high,Unusually large quantity (194820kg) for single processing batch,medium
+INWARD,0.0,221.87,False,,,low
+MIXING,4.37,2.2,True,extreme_quantity_low,Unusually small quantity (2.20kg) - inefficient processing,low
+RECEIPT,0.0,361.67,False,,,low
+MIXING,1.16,1034.39,False,,,low
+PRODUCTION,-15.41,1128.17,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+TRANSFER,37.95,154.92,True,high_loss,Unusually high loss (37.9%) for TRANSFER,medium
+QC_FAIL,4.42,400389.53,True,extreme_quantity_high,Unusually large quantity (400390kg) for single processing batch,medium
+BALING,0.31,2496.51,False,,,low
+TRANSFER,1.13,3022.24,False,,,low
+RECYCLING,-41.96,1624.87,True,impossible_yield,Yield exceeds 100% - data entry error,high
+MANUFACTURING,-44.98,760.51,True,impossible_yield,Yield exceeds 100% - data entry error,high
+INWARD,0.0,405.64,False,,,low
+QUALITY_CONTROL,9.35,156.09,False,,,low
+BALING,44.67,248.34,True,high_loss,Unusually high loss (44.7%) for BALING,medium
+TRANSFER,33.4,1072.48,True,process_mismatch,High loss (33.4%) for TRANSFER operation (should be <3%),high
+RECYCLING,7.94,945.13,False,,,low
+RECEIPT,0.0,1256.32,False,,,low
+MANUFACTURING,3.5,890.38,False,,,low
+RECEIPT,0.0,3226.85,False,,,low
+RECEIPT,0.0,212.41,False,,,low
+BALING,0.0,271.96,False,,,low
+RECYCLING,11.2,2278.59,False,,,low
+RECEIPT,0.0,1331.09,False,,,low
+WASHING,6.81,1285.99,False,,,low
+TRANSFER,0.67,304.1,False,,,low
+RECYCLING,6.81,329.64,False,,,low
+RECYCLING,5.96,340.39,False,,,low
+BALING,0.39,2097.41,False,,,low
+WASHING,2.29,1.95,True,extreme_quantity_low,Unusually small quantity (1.95kg) - inefficient processing,low
+INWARD,0.0,1194.54,False,,,low
+MANUFACTURING,2.84,1784.2,False,,,low
+QC_FAIL,100.0,292.72,False,,,low
+MANUFACTURING,3.18,1215.29,False,,,low
+QUALITY_CONTROL,11.69,2065.5,False,,,low
+QC_PASS,-10.44,464.52,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+PRODUCTION,6.5,1.22,True,extreme_quantity_low,Unusually small quantity (1.22kg) - inefficient processing,low
+INWARD,0.0,184.01,False,,,low
+PRODUCTION,3.9,1357.06,False,,,low
+TRANSFER,0.91,710.49,False,,,low
+INWARD,0.0,592.93,False,,,low
+PRODUCTION,41.48,585.55,True,high_loss,Unusually high loss (41.5%) for PRODUCTION,medium
+QUALITY_CONTROL,11.67,1167.37,False,,,low
+INWARD,0.0,221.29,False,,,low
+RECEIPT,0.0,209.53,False,,,low
+TRANSFER,1.35,2119.76,False,,,low
+WASHING,-46.13,1283.5,True,impossible_yield,Yield exceeds 100% - data entry error,high
+PRODUCTION,-20.64,1628.69,True,impossible_yield,Yield exceeds 100% - data entry error,high
+QUALITY_CONTROL,0.0,1259.39,False,,,low
+PRODUCTION,5.14,1229.03,False,,,low
+QUALITY_CONTROL,10.97,826.99,False,,,low
+SEGREGATION,7.99,579.46,False,,,low
+TRANSFER,24.38,1537.69,True,process_mismatch,High loss (24.4%) for TRANSFER operation (should be <3%),high
+MANUFACTURING,-35.26,1427.53,True,impossible_yield,Yield exceeds 100% - data entry error,high
+MIXING,2.51,388230.24,True,extreme_quantity_high,Unusually large quantity (388230kg) for single processing batch,medium
+MIXING,49.28,588.64,True,high_loss,Unusually high loss (49.3%) for MIXING,medium
+BALING,0.59,664.17,False,,,low
+QC_PASS,0.0,584.31,False,,,low
+MIXING,2.69,180759.3,True,extreme_quantity_high,Unusually large quantity (180759kg) for single processing batch,medium
+BALING,0.73,357.82,False,,,low
+BALING,78.25,1279.39,True,high_loss,Unusually high loss (78.3%) for BALING,high
+WASHING,6.0,1590.22,False,,,low
+WASHING,6.64,659.04,False,,,low
+MIXING,1.21,126.74,False,,,low
+TRANSFER,1.2,4884.13,False,,,low
+PRODUCTION,2.37,5000.0,False,,,low
+PRODUCTION,4.55,219687.33,True,extreme_quantity_high,Unusually large quantity (219687kg) for single processing batch,medium
+BALING,0.81,285.78,False,,,low
+INWARD,0.0,619.66,False,,,low
+RECYCLING,8.69,561.34,False,,,low
+RECEIPT,0.0,327.93,False,,,low
+INWARD,0.0,609.59,False,,,low
+BALING,0.0,373.91,False,,,low
+WASHING,6.99,111759.59,True,extreme_quantity_high,Unusually large quantity (111760kg) for single processing batch,medium
+QC_PASS,0.0,868.44,False,,,low
+WASHING,-15.12,228.33,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+INWARD,0.0,373.84,False,,,low
+BALING,1.44,658.76,False,,,low
+QUALITY_CONTROL,6.64,851.0,False,,,low
+SEGREGATION,9.77,744.92,False,,,low
+TRANSFER,33.94,1086.59,True,process_mismatch,High loss (33.9%) for TRANSFER operation (should be <3%),high
+QUALITY_CONTROL,1.75,3251.8,False,,,low
+QUALITY_CONTROL,3.35,241573.71,True,extreme_quantity_high,Unusually large quantity (241574kg) for single processing batch,medium
+SEGREGATION,19.02,565.74,False,,,low
+TRANSFER,1.31,805.84,False,,,low
+BALING,4.47,3.83,True,extreme_quantity_low,Unusually small quantity (3.83kg) - inefficient processing,low
+BALING,0.86,227.6,False,,,low
+QC_PASS,0.0,1564.05,False,,,low
+TRANSFER,26.96,1743.03,True,process_mismatch,High loss (27.0%) for TRANSFER operation (should be <3%),high
+PRODUCTION,-38.59,1172.41,True,impossible_yield,Yield exceeds 100% - data entry error,high
+SEGREGATION,10.26,1373.66,False,,,low
+QUALITY_CONTROL,6.99,483.59,False,,,low
+RECYCLING,9.06,469.36,False,,,low
+WASHING,2.63,675.87,False,,,low
+SEGREGATION,11.36,958.15,False,,,low
+MIXING,-8.53,901.92,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QC_FAIL,100.0,163.12,False,,,low
+QUALITY_CONTROL,0.0,677.54,False,,,low
+MANUFACTURING,5.72,0.39,True,extreme_quantity_low,Unusually small quantity (0.39kg) - inefficient processing,low
+QC_PASS,0.0,535.77,False,,,low
+MIXING,2.04,451.72,False,,,low
+PRODUCTION,0.16,232.21,False,,,low
+TRANSFER,19.62,1719.3,True,process_mismatch,High loss (19.6%) for TRANSFER operation (should be <3%),high
+BALING,-8.1,1830.03,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QUALITY_CONTROL,23.5,112.75,False,,,low
+TRANSFER,1.29,721.53,False,,,low
+WASHING,6.4,1281.51,False,,,low
+RECEIPT,0.0,266.49,False,,,low
+QUALITY_CONTROL,31.41,701.09,False,,,low
+MIXING,2.19,591.18,False,,,low
+QC_FAIL,100.0,330.08,False,,,low
+SEGREGATION,11.18,1158.14,False,,,low
+MANUFACTURING,2.95,5000.0,False,,,low
+QC_FAIL,100.0,1338.35,False,,,low
+PRODUCTION,3.66,1881.81,False,,,low
+TRANSFER,75.19,590.08,True,high_loss,Unusually high loss (75.2%) for TRANSFER,high
+MIXING,-23.66,1074.18,True,impossible_yield,Yield exceeds 100% - data entry error,high
+BALING,0.56,354.34,False,,,low
+MIXING,0.0,589.0,False,,,low
+RECEIPT,0.0,1230.56,False,,,low
+TRANSFER,0.94,945.36,False,,,low
+TRANSFER,0.71,179.98,False,,,low
+RECEIPT,0.0,4936.24,False,,,low
+RECYCLING,5.56,470.54,False,,,low
+RECYCLING,4.58,559.98,False,,,low
+RECYCLING,6.69,560.54,False,,,low
+QC_PASS,6.33,1.16,True,extreme_quantity_low,Unusually small quantity (1.16kg) - inefficient processing,low
+WASHING,5.15,297.22,False,,,low
+TRANSFER,1.02,350.11,False,,,low
+MIXING,1.2,722.22,False,,,low
+MANUFACTURING,5.71,5000.0,False,,,low
+MIXING,5.84,1.24,True,extreme_quantity_low,Unusually small quantity (1.24kg) - inefficient processing,low
+TRANSFER,0.43,569.7,False,,,low
+SEGREGATION,11.23,411.45,False,,,low
+PRODUCTION,0.79,1305.07,False,,,low
+SEGREGATION,13.16,402.07,False,,,low
+RECEIPT,0.0,1243.42,False,,,low
+BALING,0.85,175.32,False,,,low
+BALING,0.59,138.29,False,,,low
+RECEIPT,0.0,1436.55,False,,,low
+INWARD,7.47,2.3,True,extreme_quantity_low,Unusually small quantity (2.30kg) - inefficient processing,low
+TRANSFER,22.27,667.07,True,process_mismatch,High loss (22.3%) for TRANSFER operation (should be <3%),high
+BALING,0.25,1885.73,False,,,low
+RECYCLING,3.87,1049.78,False,,,low
+MANUFACTURING,-10.37,748.95,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QC_PASS,0.0,682.26,False,,,low
+TRANSFER,33.42,966.2,True,process_mismatch,High loss (33.4%) for TRANSFER operation (should be <3%),high
+RECEIPT,0.0,1672.57,False,,,low
+MANUFACTURING,3.83,158067.47,True,extreme_quantity_high,Unusually large quantity (158067kg) for single processing batch,medium
+BALING,0.41,229.7,False,,,low
+MANUFACTURING,6.29,4.47,True,extreme_quantity_low,Unusually small quantity (4.47kg) - inefficient processing,low
+PRODUCTION,3.61,409.97,False,,,low
+QC_FAIL,100.0,803.01,False,,,low
+WASHING,7.81,4426.79,False,,,low
+QC_PASS,0.0,1631.66,False,,,low
+MIXING,2.3,1295.34,False,,,low
+WASHING,4.97,961.64,False,,,low
+INWARD,49.42,1218.9,True,high_loss,Unusually high loss (49.4%) for INWARD,medium
+QC_PASS,0.0,485.56,False,,,low
+QC_FAIL,100.0,237.77,False,,,low
+RECEIPT,0.0,135.37,False,,,low
+SEGREGATION,12.36,610.59,False,,,low
+QUALITY_CONTROL,10.93,672.64,False,,,low
+TRANSFER,36.33,1931.1,True,process_mismatch,High loss (36.3%) for TRANSFER operation (should be <3%),high
+RECEIPT,0.0,581.3,False,,,low
+WASHING,8.8,2392.46,False,,,low
+MIXING,2.87,889.27,False,,,low
+SEGREGATION,7.55,1650.38,False,,,low
+MANUFACTURING,3.19,309.56,False,,,low
+INWARD,0.0,747.21,False,,,low
+MANUFACTURING,4.75,1096.91,False,,,low
+INWARD,0.0,2346.55,False,,,low
+QC_FAIL,100.0,1476.82,False,,,low
+SEGREGATION,8.18,1355.66,False,,,low
+QUALITY_CONTROL,-22.73,1014.62,True,impossible_yield,Yield exceeds 100% - data entry error,high
+RECEIPT,0.0,135.94,False,,,low
+TRANSFER,0.48,1320.0,False,,,low
+TRANSFER,-20.43,1690.94,True,impossible_yield,Yield exceeds 100% - data entry error,high
+BALING,0.45,514.76,False,,,low
+MIXING,75.36,328.54,True,high_loss,Unusually high loss (75.4%) for MIXING,high
+QC_PASS,0.0,349.85,False,,,low
+MANUFACTURING,70.23,370.5,True,high_loss,Unusually high loss (70.2%) for MANUFACTURING,high
+MANUFACTURING,0.98,298.05,False,,,low
+QUALITY_CONTROL,28.92,1138.92,False,,,low
+RECYCLING,13.32,683.97,False,,,low
+PRODUCTION,2.67,388.26,False,,,low
+WASHING,0.0,297.89,False,,,low
+TRANSFER,37.43,814.65,True,process_mismatch,High loss (37.4%) for TRANSFER operation (should be <3%),high
+QC_FAIL,100.0,188.0,False,,,low
+WASHING,-9.46,1087.38,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+TRANSFER,18.44,1543.93,True,process_mismatch,High loss (18.4%) for TRANSFER operation (should be <3%),high
+TRANSFER,18.27,1628.4,True,process_mismatch,High loss (18.3%) for TRANSFER operation (should be <3%),high
+RECYCLING,9.47,1336.38,False,,,low
+BALING,0.43,267.84,False,,,low
+QUALITY_CONTROL,31.98,867.54,False,,,low
+SEGREGATION,11.23,299.27,False,,,low
+TRANSFER,23.58,1865.25,True,process_mismatch,High loss (23.6%) for TRANSFER operation (should be <3%),high
+MANUFACTURING,4.14,928.6,False,,,low
+TRANSFER,1.09,138.15,False,,,low
+PRODUCTION,3.51,343.7,False,,,low
+QUALITY_CONTROL,4.64,942.71,False,,,low
+QC_PASS,0.0,231.56,False,,,low
+INWARD,0.0,358.37,False,,,low
+RECEIPT,3.98,186222.01,True,extreme_quantity_high,Unusually large quantity (186222kg) for single processing batch,medium
+PRODUCTION,2.24,696.94,False,,,low
+RECEIPT,0.0,100.0,False,,,low
+SEGREGATION,2.5,263.5,False,,,low
+QC_PASS,-21.05,270.94,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+WASHING,8.36,412.15,False,,,low
+BALING,-17.61,1082.79,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QUALITY_CONTROL,18.32,5000.0,False,,,low
+RECYCLING,10.5,652.99,False,,,low
+MIXING,0.26,409.09,False,,,low
+MANUFACTURING,3.36,387111.68,True,extreme_quantity_high,Unusually large quantity (387112kg) for single processing batch,medium
+SEGREGATION,7.22,0.44,True,extreme_quantity_low,Unusually small quantity (0.44kg) - inefficient processing,low
+MANUFACTURING,3.27,945.38,False,,,low
+TRANSFER,0.96,2685.62,False,,,low
+MANUFACTURING,3.45,358.25,False,,,low
+TRANSFER,34.62,1575.0,True,process_mismatch,High loss (34.6%) for TRANSFER operation (should be <3%),high
+QUALITY_CONTROL,27.43,734.17,False,,,low
+MIXING,1.57,2704.18,False,,,low
+TRANSFER,19.2,1169.43,True,process_mismatch,High loss (19.2%) for TRANSFER operation (should be <3%),high
+QUALITY_CONTROL,3.75,907.83,False,,,low
+PRODUCTION,2.61,724.99,False,,,low
+QC_PASS,0.0,686.61,False,,,low
+MIXING,0.0,581.31,False,,,low
+WASHING,7.3,786.83,False,,,low
+QUALITY_CONTROL,-29.87,469.76,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+MANUFACTURING,2.92,491.81,False,,,low
+RECEIPT,0.0,389.99,False,,,low
+PRODUCTION,2.52,2464.56,False,,,low
+QC_PASS,0.0,2381.16,False,,,low
+PRODUCTION,52.55,708.08,True,high_loss,Unusually high loss (52.5%) for PRODUCTION,high
+RECEIPT,78.74,101.03,True,high_loss,Unusually high loss (78.7%) for RECEIPT,high
+QC_PASS,2.8,0.96,True,extreme_quantity_low,Unusually small quantity (0.96kg) - inefficient processing,low
+QC_PASS,40.53,365.34,True,high_loss,Unusually high loss (40.5%) for QC_PASS,medium
+MANUFACTURING,5.04,1222.2,False,,,low
+RECYCLING,7.11,485772.94,True,extreme_quantity_high,Unusually large quantity (485773kg) for single processing batch,medium
+SEGREGATION,12.86,217.18,False,,,low
+QC_FAIL,100.0,244.46,False,,,low
+PRODUCTION,1.21,470.99,False,,,low
+TRANSFER,0.54,244.01,False,,,low
+TRANSFER,37.57,1649.46,True,process_mismatch,High loss (37.6%) for TRANSFER operation (should be <3%),high
+BALING,0.31,648.31,False,,,low
+SEGREGATION,-7.08,474.07,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+PRODUCTION,0.0,1745.25,False,,,low
+WASHING,0.0,203.31,False,,,low
+QUALITY_CONTROL,23.6,1047.98,False,,,low
+TRANSFER,37.19,1799.08,True,high_loss,Unusually high loss (37.2%) for TRANSFER,medium
+QC_PASS,0.0,1147.56,False,,,low
+INWARD,0.0,559.35,False,,,low
+MIXING,4.32,263649.94,True,extreme_quantity_high,Unusually large quantity (263650kg) for single processing batch,medium
+PRODUCTION,2.12,548.32,False,,,low
+MIXING,1.14,1139.01,False,,,low
+RECYCLING,5.09,635.07,False,,,low
+INWARD,6.85,2.68,True,extreme_quantity_low,Unusually small quantity (2.68kg) - inefficient processing,low
+MIXING,0.0,3434.61,False,,,low
+QUALITY_CONTROL,19.48,585.91,False,,,low
+WASHING,-25.92,1803.51,True,impossible_yield,Yield exceeds 100% - data entry error,high
+BALING,0.0,1612.22,False,,,low
+MIXING,3.8,336.03,False,,,low
+BALING,-25.74,468.16,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+TRANSFER,0.0,2021.94,False,,,low
+TRANSFER,34.63,1949.37,True,process_mismatch,High loss (34.6%) for TRANSFER operation (should be <3%),high
+MIXING,40.31,504.02,True,high_loss,Unusually high loss (40.3%) for MIXING,medium
+BALING,1.22,791.37,False,,,low
+BALING,0.38,577.72,False,,,low
+PRODUCTION,2.91,503.44,False,,,low
+WASHING,6.58,721.57,False,,,low
+WASHING,-8.65,713.7,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QC_FAIL,100.0,478.94,False,,,low
+QC_PASS,0.0,140.72,False,,,low
+SEGREGATION,6.78,4.17,True,extreme_quantity_low,Unusually small quantity (4.17kg) - inefficient processing,low
+TRANSFER,4.35,495317.81,True,extreme_quantity_high,Unusually large quantity (495318kg) for single processing batch,medium
+RECEIPT,0.0,807.27,False,,,low
+MANUFACTURING,3.9,322.15,False,,,low
+MANUFACTURING,3.42,507.02,False,,,low
+PRODUCTION,1.06,537.83,False,,,low
+BALING,0.44,1068.34,False,,,low
+SEGREGATION,3.82,986.64,False,,,low
+PRODUCTION,1.98,947.53,False,,,low
+MANUFACTURING,4.77,630.71,False,,,low
+QC_FAIL,6.3,294406.54,True,extreme_quantity_high,Unusually large quantity (294407kg) for single processing batch,medium
+BALING,0.39,427.6,False,,,low
+PRODUCTION,3.47,1451.94,False,,,low
+RECEIPT,0.0,821.72,False,,,low
+TRANSFER,43.12,145.71,True,high_loss,Unusually high loss (43.1%) for TRANSFER,medium
+INWARD,4.21,0.43,True,extreme_quantity_low,Unusually small quantity (0.43kg) - inefficient processing,low
+SEGREGATION,9.33,702.54,False,,,low
+QUALITY_CONTROL,5.42,253190.9,True,extreme_quantity_high,Unusually large quantity (253191kg) for single processing batch,medium
+WASHING,-11.04,1393.05,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+MIXING,79.34,1585.84,True,high_loss,Unusually high loss (79.3%) for MIXING,high
+QC_FAIL,100.0,2575.7,False,,,low
+INWARD,2.23,0.55,True,extreme_quantity_low,Unusually small quantity (0.55kg) - inefficient processing,low
+QUALITY_CONTROL,-32.88,1897.23,True,impossible_yield,Yield exceeds 100% - data entry error,high
+QC_FAIL,100.0,754.54,False,,,low
+INWARD,0.0,751.46,False,,,low
+RECEIPT,0.0,5000.0,False,,,low
+MANUFACTURING,0.85,866.18,False,,,low
+RECEIPT,6.72,99936.05,True,extreme_quantity_high,Unusually large quantity (99936kg) for single processing batch,medium
+PRODUCTION,1.75,275.61,False,,,low
+QUALITY_CONTROL,8.48,519.48,False,,,low
+BALING,0.31,152.59,False,,,low
+RECEIPT,0.0,428.4,False,,,low
+MANUFACTURING,3.01,696.66,False,,,low
+RECEIPT,75.05,1498.23,True,high_loss,Unusually high loss (75.1%) for RECEIPT,high
+SEGREGATION,6.03,0.15,True,extreme_quantity_low,Unusually small quantity (0.15kg) - inefficient processing,low
+PRODUCTION,-19.53,408.33,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QC_PASS,0.0,581.35,False,,,low
+RECEIPT,0.0,646.73,False,,,low
+QC_PASS,0.0,394.01,False,,,low
+RECEIPT,0.0,1777.72,False,,,low
+RECYCLING,6.96,509.39,False,,,low
+MIXING,3.07,421913.67,True,extreme_quantity_high,Unusually large quantity (421914kg) for single processing batch,medium
+QUALITY_CONTROL,6.05,228.32,False,,,low
+RECEIPT,0.0,896.79,False,,,low
+WASHING,4.06,410.72,False,,,low
+QUALITY_CONTROL,15.69,1326.15,False,,,low
+BALING,0.8,1209.49,False,,,low
+PRODUCTION,0.94,471.92,False,,,low
+RECEIPT,0.0,730.31,False,,,low
+SEGREGATION,4.27,237.82,False,,,low
+WASHING,40.8,491.84,True,high_loss,Unusually high loss (40.8%) for WASHING,medium
+TRANSFER,0.69,289.41,False,,,low
+SEGREGATION,11.02,599.98,False,,,low
+WASHING,10.96,192.01,False,,,low
+PRODUCTION,1.44,748.33,False,,,low
+QC_PASS,0.0,263.6,False,,,low
+INWARD,6.4,2.34,True,extreme_quantity_low,Unusually small quantity (2.34kg) - inefficient processing,low
+INWARD,0.0,198.13,False,,,low
+INWARD,0.0,611.57,False,,,low
+TRANSFER,1.12,488.42,False,,,low
+SEGREGATION,11.81,2606.76,False,,,low
+SEGREGATION,9.82,2003.75,False,,,low
+TRANSFER,1.01,374.93,False,,,low
+QC_PASS,3.85,0.36,True,extreme_quantity_low,Unusually small quantity (0.36kg) - inefficient processing,low
+TRANSFER,1.85,750.79,False,,,low
+INWARD,0.0,1736.17,False,,,low
+RECYCLING,5.83,270.67,False,,,low
+INWARD,0.0,189.73,False,,,low
+QC_PASS,0.0,749.21,False,,,low
+RECYCLING,2.09,3.3,True,extreme_quantity_low,Unusually small quantity (3.30kg) - inefficient processing,low
+QUALITY_CONTROL,16.4,694.45,False,,,low
+BALING,0.19,554.34,False,,,low
+MIXING,0.78,1704.84,False,,,low
+RECEIPT,0.0,280.85,False,,,low
+RECYCLING,7.92,468.63,False,,,low
+PRODUCTION,59.93,1213.73,True,high_loss,Unusually high loss (59.9%) for PRODUCTION,high
+BALING,0.28,209.1,False,,,low
+SEGREGATION,12.04,1273.3,False,,,low
+TRANSFER,39.78,1321.91,True,process_mismatch,High loss (39.8%) for TRANSFER operation (should be <3%),high
+TRANSFER,21.02,1232.94,True,process_mismatch,High loss (21.0%) for TRANSFER operation (should be <3%),high
+WASHING,6.59,1074.06,False,,,low
+BALING,0.26,1499.29,False,,,low
+MANUFACTURING,1.44,225.2,False,,,low
+BALING,36.47,398.0,True,high_loss,Unusually high loss (36.5%) for BALING,medium
+TRANSFER,1.75,1963.02,False,,,low
+WASHING,11.58,231.2,False,,,low
+QC_FAIL,100.0,1292.58,False,,,low
+RECEIPT,0.0,1150.05,False,,,low
+INWARD,0.0,384.88,False,,,low
+SEGREGATION,10.13,2142.66,False,,,low
+TRANSFER,0.8,202.73,False,,,low
+RECYCLING,5.47,836.99,False,,,low
+TRANSFER,0.96,634.77,False,,,low
+QC_FAIL,100.0,405.58,False,,,low
+QC_FAIL,100.0,249.1,False,,,low
+TRANSFER,1.4,204.11,False,,,low
+INWARD,0.0,288.18,False,,,low
+INWARD,0.0,2495.71,False,,,low
+INWARD,-11.03,620.52,True,impossible_yield,Yield exceeds 100% - data entry error,high
+QUALITY_CONTROL,-8.99,569.59,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QC_PASS,0.0,557.01,False,,,low
+SEGREGATION,5.03,3.92,True,extreme_quantity_low,Unusually small quantity (3.92kg) - inefficient processing,low
+INWARD,58.48,1526.06,True,high_loss,Unusually high loss (58.5%) for INWARD,high
+BALING,0.48,495.27,False,,,low
+WASHING,5.17,518.89,False,,,low
+RECEIPT,0.0,629.7,False,,,low
+MIXING,1.07,106.84,False,,,low
+INWARD,0.0,650.29,False,,,low
+MANUFACTURING,0.99,741.11,False,,,low
+PRODUCTION,2.6,801.46,False,,,low
+PRODUCTION,2.6,163.71,False,,,low
+PRODUCTION,1.39,463.68,False,,,low
+WASHING,5.11,726.08,False,,,low
+RECYCLING,4.27,654.63,False,,,low
+QC_FAIL,100.0,360.38,False,,,low
+QC_PASS,0.0,443.66,False,,,low
+RECYCLING,0.92,754.82,False,,,low
+QC_FAIL,100.0,100.0,False,,,low
+QC_FAIL,4.23,127111.91,True,extreme_quantity_high,Unusually large quantity (127112kg) for single processing batch,medium
+INWARD,0.0,675.65,False,,,low
+MIXING,0.71,278.46,False,,,low
+PRODUCTION,4.02,652.28,False,,,low
+SEGREGATION,10.92,268.61,False,,,low
+RECEIPT,0.0,160.15,False,,,low
+MANUFACTURING,5.65,1.97,True,extreme_quantity_low,Unusually small quantity (1.97kg) - inefficient processing,low
+WASHING,3.24,1466.87,False,,,low
+QUALITY_CONTROL,30.0,705.99,False,,,low
+MANUFACTURING,0.84,440.48,False,,,low
+QUALITY_CONTROL,31.63,585.19,False,,,low
+TRANSFER,0.94,430.64,False,,,low
+INWARD,0.0,216.61,False,,,low
+BALING,0.42,586.62,False,,,low
+TRANSFER,1.35,148.41,False,,,low
+BALING,0.34,1430.59,False,,,low
+MIXING,55.33,101.9,True,high_loss,Unusually high loss (55.3%) for MIXING,high
+SEGREGATION,15.35,622.78,False,,,low
+QC_PASS,-15.22,663.91,True,impossible_yield,Yield exceeds 100% - data entry error,high
+INWARD,0.0,100.0,False,,,low
+QC_PASS,0.0,2272.98,False,,,low
+RECYCLING,0.69,742.83,False,,,low
+QUALITY_CONTROL,4.32,364.83,False,,,low
+TRANSFER,0.91,1628.01,False,,,low
+PRODUCTION,-7.04,1111.58,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QC_PASS,0.0,158.32,False,,,low
+PRODUCTION,2.56,96940.93,True,extreme_quantity_high,Unusually large quantity (96941kg) for single processing batch,medium
+QUALITY_CONTROL,11.56,365.21,False,,,low
+TRANSFER,0.41,782.04,False,,,low
+INWARD,0.0,1517.93,False,,,low
+RECEIPT,-16.68,580.55,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+TRANSFER,28.39,1770.68,True,process_mismatch,High loss (28.4%) for TRANSFER operation (should be <3%),high
+QC_PASS,0.0,400.45,False,,,low
+BALING,0.17,1811.35,False,,,low
+TRANSFER,22.99,1047.54,True,process_mismatch,High loss (23.0%) for TRANSFER operation (should be <3%),high
+TRANSFER,0.82,414.07,False,,,low
+SEGREGATION,14.03,189.25,False,,,low
+QC_PASS,0.0,451.51,False,,,low
+QC_FAIL,100.0,394.51,False,,,low
+RECEIPT,0.0,252.88,False,,,low
+RECYCLING,-39.24,814.29,True,impossible_yield,Yield exceeds 100% - data entry error,high
+WASHING,-24.07,1656.45,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+RECEIPT,0.0,1182.44,False,,,low
+INWARD,0.0,415.6,False,,,low
+QUALITY_CONTROL,43.17,1455.27,True,high_loss,Unusually high loss (43.2%) for QUALITY_CONTROL,medium
+PRODUCTION,1.62,5000.0,False,,,low
+SEGREGATION,4.73,215893.52,True,extreme_quantity_high,Unusually large quantity (215894kg) for single processing batch,medium
+RECEIPT,0.0,504.0,False,,,low
+MANUFACTURING,3.7,148525.27,True,extreme_quantity_high,Unusually large quantity (148525kg) for single processing batch,medium
+RECEIPT,0.0,662.43,False,,,low
+TRANSFER,0.19,426.06,False,,,low
+SEGREGATION,11.42,303.86,False,,,low
+TRANSFER,0.41,2155.61,False,,,low
+QC_FAIL,100.0,1008.89,False,,,low
+QC_PASS,0.0,605.39,False,,,low
+BALING,0.41,770.02,False,,,low
+INWARD,0.0,1993.84,False,,,low
+TRANSFER,15.73,1893.51,True,process_mismatch,High loss (15.7%) for TRANSFER operation (should be <3%),high
+INWARD,0.0,397.23,False,,,low
+RECYCLING,9.48,283.49,False,,,low
+MANUFACTURING,4.3,849.72,False,,,low
+TRANSFER,31.77,634.42,True,process_mismatch,High loss (31.8%) for TRANSFER operation (should be <3%),high
+INWARD,38.15,270.46,True,high_loss,Unusually high loss (38.1%) for INWARD,medium
+RECEIPT,0.0,1552.55,False,,,low
+RECEIPT,0.0,554.24,False,,,low
+TRANSFER,29.9,758.73,True,process_mismatch,High loss (29.9%) for TRANSFER operation (should be <3%),high
+BALING,0.74,1017.1,False,,,low
+BALING,0.39,481.14,False,,,low
+SEGREGATION,12.57,291.85,False,,,low
+QUALITY_CONTROL,6.04,464.54,False,,,low
+QC_PASS,0.0,1327.61,False,,,low
+PRODUCTION,4.8,196.28,False,,,low
+QUALITY_CONTROL,29.44,839.75,False,,,low
+MIXING,2.27,0.23,True,extreme_quantity_low,Unusually small quantity (0.23kg) - inefficient processing,low
+WASHING,-11.22,1603.72,True,impossible_yield,Yield exceeds 100% - data entry error,high
+QC_PASS,5.59,4.73,True,extreme_quantity_low,Unusually small quantity (4.73kg) - inefficient processing,low
+RECEIPT,0.0,971.18,False,,,low
+TRANSFER,0.72,100.0,False,,,low
+QC_PASS,0.0,324.96,False,,,low
+BALING,0.59,1192.56,False,,,low
+TRANSFER,0.83,439.25,False,,,low
+WASHING,4.15,3629.3,False,,,low
+MIXING,6.55,375129.66,True,extreme_quantity_high,Unusually large quantity (375130kg) for single processing batch,medium
+MANUFACTURING,-47.92,1988.02,True,impossible_yield,Yield exceeds 100% - data entry error,high
+RECYCLING,2.13,3013.17,False,,,low
+QC_PASS,-24.36,1410.14,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QC_PASS,0.0,656.56,False,,,low
+TRANSFER,36.62,1475.47,True,process_mismatch,High loss (36.6%) for TRANSFER operation (should be <3%),high
+RECEIPT,0.0,883.84,False,,,low
+WASHING,5.49,2403.05,False,,,low
+SEGREGATION,7.57,566.71,False,,,low
+SEGREGATION,3.1,1158.71,False,,,low
+TRANSFER,33.51,1905.82,True,process_mismatch,High loss (33.5%) for TRANSFER operation (should be <3%),high
+RECEIPT,0.0,1997.57,False,,,low
+QC_PASS,0.0,1569.24,False,,,low
+QC_PASS,0.0,651.71,False,,,low
+SEGREGATION,5.28,929.79,False,,,low
+BALING,0.85,942.41,False,,,low
+MANUFACTURING,3.67,1389.67,False,,,low
+BALING,0.96,392.8,False,,,low
+MIXING,2.14,100.0,False,,,low
+TRANSFER,0.7,2196.02,False,,,low
+BALING,0.44,792.12,False,,,low
+RECYCLING,7.25,477.26,False,,,low
+TRANSFER,-20.57,863.53,True,impossible_yield,Yield exceeds 100% - data entry error,high
+TRANSFER,32.84,1793.32,True,process_mismatch,High loss (32.8%) for TRANSFER operation (should be <3%),high
+QUALITY_CONTROL,6.62,411.47,False,,,low
+INWARD,-11.93,1762.27,True,impossible_yield,Yield exceeds 100% - data entry error,high
+QC_FAIL,100.0,1078.12,False,,,low
+MIXING,0.79,2375.87,False,,,low
+INWARD,0.0,555.35,False,,,low
+RECEIPT,0.0,546.17,False,,,low
+QC_FAIL,100.0,2182.84,False,,,low
+QUALITY_CONTROL,-22.72,1943.52,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QUALITY_CONTROL,1.8,871.3,False,,,low
+INWARD,0.0,1655.82,False,,,low
+MANUFACTURING,-19.48,1935.65,True,impossible_yield,Yield exceeds 100% - data entry error,high
+RECYCLING,7.07,859.88,False,,,low
+TRANSFER,15.23,1778.54,True,process_mismatch,High loss (15.2%) for TRANSFER operation (should be <3%),high
+QC_PASS,0.0,2824.55,False,,,low
+MIXING,3.3,3.51,True,extreme_quantity_low,Unusually small quantity (3.51kg) - inefficient processing,low
+MANUFACTURING,2.29,1085.58,False,,,low
+QC_FAIL,57.7,1903.78,True,high_loss,Unusually high loss (57.7%) for QC_FAIL,high
+TRANSFER,22.48,1722.52,True,process_mismatch,High loss (22.5%) for TRANSFER operation (should be <3%),high
+QC_FAIL,100.0,492.55,False,,,low
+RECYCLING,8.89,2729.66,False,,,low
+QC_PASS,0.0,756.36,False,,,low
+PRODUCTION,1.1,477.83,False,,,low
+TRANSFER,1.35,806.5,False,,,low
+QUALITY_CONTROL,13.63,266.79,False,,,low
+TRANSFER,1.19,4759.5,False,,,low
+RECYCLING,9.03,479.4,False,,,low
+INWARD,0.0,417.53,False,,,low
+QC_PASS,0.0,351.95,False,,,low
+TRANSFER,1.75,346.22,False,,,low
+INWARD,-8.61,1773.91,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+MIXING,1.96,1211.72,False,,,low
+BALING,0.27,538.27,False,,,low
+SEGREGATION,9.01,472.17,False,,,low
+QC_PASS,0.0,3910.67,False,,,low
+INWARD,-27.47,1336.75,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+RECEIPT,-18.87,334.49,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+RECEIPT,0.0,276.42,False,,,low
+MIXING,3.34,370.06,False,,,low
+RECYCLING,6.66,1584.74,False,,,low
+PRODUCTION,1.83,1526.01,False,,,low
+RECYCLING,7.3,108857.61,True,extreme_quantity_high,Unusually large quantity (108858kg) for single processing batch,medium
+QUALITY_CONTROL,22.35,425.25,False,,,low
+WASHING,8.16,454.18,False,,,low
+RECEIPT,0.0,276.58,False,,,low
+TRANSFER,35.3,1232.84,True,process_mismatch,High loss (35.3%) for TRANSFER operation (should be <3%),high
+MIXING,77.87,1926.57,True,high_loss,Unusually high loss (77.9%) for MIXING,high
+PRODUCTION,2.45,801.99,False,,,low
+BALING,0.08,118.83,False,,,low
+QC_PASS,0.0,163.89,False,,,low
+QUALITY_CONTROL,24.98,1113.13,False,,,low
+SEGREGATION,7.09,1529.6,False,,,low
+INWARD,-28.51,1329.28,True,impossible_yield,Yield exceeds 100% - data entry error,high
+QC_FAIL,100.0,617.96,False,,,low
+RECYCLING,8.81,1528.51,False,,,low
+INWARD,0.0,138.04,False,,,low
+SEGREGATION,16.14,608.47,False,,,low
+WASHING,-45.33,638.46,True,impossible_yield,Yield exceeds 100% - data entry error,high
+RECEIPT,4.89,1.74,True,extreme_quantity_low,Unusually small quantity (1.74kg) - inefficient processing,low
+QC_PASS,0.0,1151.35,False,,,low
+WASHING,5.39,695.9,False,,,low
+QC_FAIL,40.65,1179.67,True,high_loss,Unusually high loss (40.7%) for QC_FAIL,medium
+QUALITY_CONTROL,15.46,398.26,False,,,low
+QC_FAIL,100.0,663.88,False,,,low
+TRANSFER,32.53,1322.02,True,process_mismatch,High loss (32.5%) for TRANSFER operation (should be <3%),high
+MIXING,-21.63,1452.47,True,impossible_yield,Yield exceeds 100% - data entry error,high
+WASHING,5.7,4.49,True,extreme_quantity_low,Unusually small quantity (4.49kg) - inefficient processing,low
+QUALITY_CONTROL,16.86,1388.39,False,,,low
+PRODUCTION,3.35,2164.81,False,,,low
+PRODUCTION,3.07,1696.85,False,,,low
+BALING,0.4,746.54,False,,,low
+QC_PASS,-28.37,342.32,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+BALING,0.39,862.48,False,,,low
+QC_PASS,0.0,100.0,False,,,low
+INWARD,0.0,584.97,False,,,low
+INWARD,-14.37,1635.99,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QC_PASS,0.0,843.85,False,,,low
+MIXING,1.51,432.52,False,,,low
+TRANSFER,35.93,1308.47,True,process_mismatch,High loss (35.9%) for TRANSFER operation (should be <3%),high
+PRODUCTION,4.59,237.08,False,,,low
+QUALITY_CONTROL,17.45,535.95,False,,,low
+MANUFACTURING,2.61,1037.69,False,,,low
+PRODUCTION,2.88,516.53,False,,,low
+SEGREGATION,12.43,363.44,False,,,low
+INWARD,0.0,4271.67,False,,,low
+TRANSFER,0.8,2217.31,False,,,low
+BALING,6.75,326698.9,True,extreme_quantity_high,Unusually large quantity (326699kg) for single processing batch,medium
+BALING,0.32,464.81,False,,,low
+MIXING,7.86,498962.71,True,extreme_quantity_high,Unusually large quantity (498963kg) for single processing batch,medium
+PRODUCTION,0.93,325.42,False,,,low
+MIXING,2.69,827.57,False,,,low
+MANUFACTURING,2.17,671.65,False,,,low
+INWARD,61.37,1036.66,True,high_loss,Unusually high loss (61.4%) for INWARD,high
+TRANSFER,0.6,545.02,False,,,low
+INWARD,0.0,461.57,False,,,low
+RECEIPT,0.0,380.46,False,,,low
+QUALITY_CONTROL,23.2,310.83,False,,,low
+QC_FAIL,100.0,316.75,False,,,low
+INWARD,0.0,846.89,False,,,low
+MANUFACTURING,3.71,284.1,False,,,low
+TRANSFER,26.99,1540.59,True,process_mismatch,High loss (27.0%) for TRANSFER operation (should be <3%),high
+INWARD,0.0,1266.42,False,,,low
+BALING,0.52,395.23,False,,,low
+MANUFACTURING,3.81,418.73,False,,,low
+RECYCLING,3.83,382012.28,True,extreme_quantity_high,Unusually large quantity (382012kg) for single processing batch,medium
+INWARD,2.25,280517.94,True,extreme_quantity_high,Unusually large quantity (280518kg) for single processing batch,medium
+WASHING,-7.08,817.05,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+SEGREGATION,-8.25,1181.29,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+MIXING,43.09,136.05,True,high_loss,Unusually high loss (43.1%) for MIXING,medium
+QC_FAIL,100.0,1048.29,False,,,low
+MIXING,-15.34,1388.77,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+MANUFACTURING,2.01,1461.3,False,,,low
+RECYCLING,8.58,145.51,False,,,low
+QUALITY_CONTROL,12.02,1103.87,False,,,low
+RECYCLING,7.5,2285.15,False,,,low
+RECYCLING,13.63,864.02,False,,,low
+RECEIPT,-14.4,961.48,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+BALING,0.23,996.84,False,,,low
+QC_FAIL,100.0,100.0,False,,,low
+RECEIPT,0.0,777.48,False,,,low
+QUALITY_CONTROL,12.69,741.51,False,,,low
+SEGREGATION,-31.97,1721.56,True,impossible_yield,Yield exceeds 100% - data entry error,high
+TRANSFER,35.69,551.52,True,process_mismatch,High loss (35.7%) for TRANSFER operation (should be <3%),high
+WASHING,4.34,685.44,False,,,low
+MANUFACTURING,6.81,3.51,True,extreme_quantity_low,Unusually small quantity (3.51kg) - inefficient processing,low
+MIXING,0.52,450.29,False,,,low
+SEGREGATION,37.8,1788.17,True,high_loss,Unusually high loss (37.8%) for SEGREGATION,medium
+PRODUCTION,1.82,2971.61,False,,,low
+SEGREGATION,6.44,122.99,False,,,low
+BALING,0.13,967.16,False,,,low
+INWARD,0.0,958.97,False,,,low
+MIXING,2.67,1463.11,False,,,low
+MANUFACTURING,3.65,607.38,False,,,low
+INWARD,0.0,1318.38,False,,,low
+QC_FAIL,100.0,325.38,False,,,low
+TRANSFER,0.82,339.54,False,,,low
+MIXING,1.32,1087.85,False,,,low
+SEGREGATION,46.08,1153.94,True,high_loss,Unusually high loss (46.1%) for SEGREGATION,medium
+MIXING,1.75,363.91,False,,,low
+TRANSFER,0.59,496.44,False,,,low
+RECEIPT,0.0,578.77,False,,,low
+RECEIPT,0.0,1698.41,False,,,low
+RECYCLING,-19.67,1801.01,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+WASHING,5.75,157.12,False,,,low
+BALING,40.82,1438.6,True,high_loss,Unusually high loss (40.8%) for BALING,medium
+SEGREGATION,8.36,628.5,False,,,low
+TRANSFER,1.22,377.65,False,,,low
+QC_PASS,0.0,908.95,False,,,low
+RECEIPT,0.0,358.51,False,,,low
+BALING,0.62,1246.57,False,,,low
+PRODUCTION,4.12,1550.82,False,,,low
+QC_PASS,0.0,2373.98,False,,,low
+MANUFACTURING,2.46,1192.51,False,,,low
+MIXING,2.13,632.31,False,,,low
+SEGREGATION,13.11,681.56,False,,,low
+TRANSFER,0.53,488.39,False,,,low
+INWARD,0.0,717.39,False,,,low
+BALING,47.29,1358.33,True,high_loss,Unusually high loss (47.3%) for BALING,medium
+RECEIPT,0.0,571.49,False,,,low
+SEGREGATION,10.21,363.3,False,,,low
+RECEIPT,0.0,212.9,False,,,low
+BALING,0.33,807.96,False,,,low
+QC_FAIL,100.0,456.41,False,,,low
+TRANSFER,1.04,1377.7,False,,,low
+QC_FAIL,100.0,360.09,False,,,low
+SEGREGATION,10.33,599.0,False,,,low
+TRANSFER,0.55,1431.38,False,,,low
+SEGREGATION,7.6,393.19,False,,,low
+MIXING,0.59,557.79,False,,,low
+MIXING,2.79,512.2,False,,,low
+TRANSFER,2.05,643.55,False,,,low
+QC_PASS,0.0,1123.48,False,,,low
+RECEIPT,0.0,401.67,False,,,low
+QC_FAIL,-18.95,672.8,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+MANUFACTURING,0.9,610.02,False,,,low
+RECYCLING,3.64,3.18,True,extreme_quantity_low,Unusually small quantity (3.18kg) - inefficient processing,low
+PRODUCTION,2.99,551.18,False,,,low
+RECYCLING,3.82,1608.37,False,,,low
+INWARD,7.28,2.36,True,extreme_quantity_low,Unusually small quantity (2.36kg) - inefficient processing,low
+BALING,0.18,321.26,False,,,low
+MIXING,2.63,1148.11,False,,,low
+QUALITY_CONTROL,-22.23,1289.39,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QUALITY_CONTROL,24.63,249.4,False,,,low
+INWARD,0.0,171.5,False,,,low
+PRODUCTION,2.35,559.95,False,,,low
+TRANSFER,33.17,923.55,True,process_mismatch,High loss (33.2%) for TRANSFER operation (should be <3%),high
+SEGREGATION,8.67,2243.88,False,,,low
+TRANSFER,23.89,1210.81,True,process_mismatch,High loss (23.9%) for TRANSFER operation (should be <3%),high
+PRODUCTION,2.73,652.43,False,,,low
+QC_FAIL,100.0,3468.15,False,,,low
+WASHING,6.85,552.35,False,,,low
+QUALITY_CONTROL,27.18,3872.33,False,,,low
+QC_FAIL,100.0,546.07,False,,,low
+QC_PASS,0.0,923.11,False,,,low
+MANUFACTURING,2.54,1538.5,False,,,low
+QC_FAIL,100.0,1438.45,False,,,low
+TRANSFER,1.25,346.71,False,,,low
+QUALITY_CONTROL,-17.33,1911.49,True,impossible_yield,Yield exceeds 100% - data entry error,high
+RECYCLING,8.92,354.38,False,,,low
+MANUFACTURING,3.2,490.2,False,,,low
+QC_FAIL,100.0,238.05,False,,,low
+SEGREGATION,6.4,1033.61,False,,,low
+BALING,0.7,316.3,False,,,low
+BALING,0.22,163.31,False,,,low
+MIXING,1.54,259.36,False,,,low
+BALING,0.0,1115.11,False,,,low
+TRANSFER,1.57,516.28,False,,,low
+MANUFACTURING,5.36,530.75,False,,,low
+WASHING,6.08,622.96,False,,,low
+QC_PASS,0.0,137.32,False,,,low
+BALING,0.1,409.71,False,,,low
+MIXING,2.17,1142.63,False,,,low
+BALING,-46.8,1958.83,True,impossible_yield,Yield exceeds 100% - data entry error,high
+MANUFACTURING,5.05,401.77,False,,,low
+BALING,0.17,393.22,False,,,low
+QUALITY_CONTROL,11.28,203.96,False,,,low
+TRANSFER,1.23,812.81,False,,,low
+PRODUCTION,1.41,547.18,False,,,low
+QUALITY_CONTROL,7.38,593.85,False,,,low
+TRANSFER,0.86,1234.32,False,,,low
+QC_PASS,0.0,573.59,False,,,low
+MIXING,2.74,329.85,False,,,low
+RECEIPT,0.0,1903.37,False,,,low
+SEGREGATION,8.72,1097.89,False,,,low
+PRODUCTION,2.07,5000.0,False,,,low
+TRANSFER,39.14,1846.4,True,process_mismatch,High loss (39.1%) for TRANSFER operation (should be <3%),high
+SEGREGATION,16.75,809.24,False,,,low
+RECEIPT,0.0,705.33,False,,,low
+SEGREGATION,-8.0,1634.58,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QC_FAIL,100.0,817.21,False,,,low
+WASHING,4.19,855.39,False,,,low
+MANUFACTURING,3.15,220187.99,True,extreme_quantity_high,Unusually large quantity (220188kg) for single processing batch,medium
+RECYCLING,0.54,951.07,False,,,low
+MIXING,2.65,514.59,False,,,low
+RECYCLING,5.74,144.93,False,,,low
+TRANSFER,29.83,1954.59,True,process_mismatch,High loss (29.8%) for TRANSFER operation (should be <3%),high
+TRANSFER,0.71,1548.25,False,,,low
+MIXING,5.76,3.16,True,extreme_quantity_low,Unusually small quantity (3.16kg) - inefficient processing,low
+MIXING,79.95,1768.73,True,high_loss,Unusually high loss (79.9%) for MIXING,high
+MANUFACTURING,2.31,383.26,False,,,low
+BALING,0.5,5000.0,False,,,low
+INWARD,6.23,0.17,True,extreme_quantity_low,Unusually small quantity (0.17kg) - inefficient processing,low
+WASHING,8.51,2317.41,False,,,low
+MANUFACTURING,6.08,0.41,True,extreme_quantity_low,Unusually small quantity (0.41kg) - inefficient processing,low
+INWARD,0.0,411.7,False,,,low
+SEGREGATION,9.1,2098.85,False,,,low
+MANUFACTURING,0.06,389.74,False,,,low
+RECEIPT,7.53,312792.18,True,extreme_quantity_high,Unusually large quantity (312792kg) for single processing batch,medium
+PRODUCTION,2.45,591.59,False,,,low
+QUALITY_CONTROL,11.56,606.94,False,,,low
+QC_FAIL,100.0,1719.28,False,,,low
+MIXING,1.01,2422.85,False,,,low
+WASHING,4.57,688.88,False,,,low
+QC_FAIL,100.0,803.5,False,,,low
+QC_FAIL,100.0,492.5,False,,,low
+QUALITY_CONTROL,42.92,715.47,False,,,low
+QC_FAIL,100.0,622.61,False,,,low
+QC_FAIL,100.0,100.0,False,,,low
+QC_PASS,0.0,712.28,False,,,low
+RECEIPT,0.0,4161.08,False,,,low
+SEGREGATION,3.31,5000.0,False,,,low
+RECYCLING,5.67,335.94,False,,,low
+RECYCLING,7.89,425.37,False,,,low
+RECEIPT,-44.08,1408.15,True,impossible_yield,Yield exceeds 100% - data entry error,high
+QUALITY_CONTROL,4.44,1572.12,False,,,low
+WASHING,6.36,902.42,False,,,low
+BALING,0.82,152.81,False,,,low
+TRANSFER,0.72,351.53,False,,,low
+WASHING,5.64,0.97,True,extreme_quantity_low,Unusually small quantity (0.97kg) - inefficient processing,low
+RECYCLING,10.41,886.47,False,,,low
+WASHING,6.52,887.4,False,,,low
+WASHING,0.96,869.1,False,,,low
+QC_FAIL,100.0,713.64,False,,,low
+MANUFACTURING,3.42,315.3,False,,,low
+BALING,0.67,1211.27,False,,,low
+QUALITY_CONTROL,12.4,328.98,False,,,low
+MIXING,3.01,285.35,False,,,low
+SEGREGATION,4.33,456614.38,True,extreme_quantity_high,Unusually large quantity (456614kg) for single processing batch,medium
+QUALITY_CONTROL,13.2,1360.2,False,,,low
+TRANSFER,1.42,411.21,False,,,low
+PRODUCTION,2.92,1.85,True,extreme_quantity_low,Unusually small quantity (1.85kg) - inefficient processing,low
+RECEIPT,0.0,733.48,False,,,low
+QUALITY_CONTROL,25.98,885.48,False,,,low
+RECEIPT,0.0,655.69,False,,,low
+WASHING,6.66,1902.69,False,,,low
+INWARD,57.45,904.5,True,high_loss,Unusually high loss (57.4%) for INWARD,high
+BALING,0.29,394.35,False,,,low
+PRODUCTION,1.7,323.03,False,,,low
+SEGREGATION,5.95,1.46,True,extreme_quantity_low,Unusually small quantity (1.46kg) - inefficient processing,low
+MIXING,3.42,2300.76,False,,,low
+INWARD,-47.15,1827.5,True,impossible_yield,Yield exceeds 100% - data entry error,high
+INWARD,0.0,245.77,False,,,low
+QC_PASS,0.0,913.0,False,,,low
+TRANSFER,-39.89,953.33,True,impossible_yield,Yield exceeds 100% - data entry error,high
+RECYCLING,2.44,1395.5,False,,,low
+PRODUCTION,2.9,534.71,False,,,low
+MANUFACTURING,2.05,1327.96,False,,,low
+MANUFACTURING,2.87,1819.1,False,,,low
+INWARD,0.0,1156.01,False,,,low
+BALING,0.93,2095.29,False,,,low
+PRODUCTION,3.21,666.77,False,,,low
+SEGREGATION,3.77,275794.21,True,extreme_quantity_high,Unusually large quantity (275794kg) for single processing batch,medium
+MANUFACTURING,3.42,534.64,False,,,low
+RECYCLING,-23.92,1614.35,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QC_PASS,0.0,980.72,False,,,low
+PRODUCTION,2.86,953.49,False,,,low
+MIXING,6.75,2.13,True,extreme_quantity_low,Unusually small quantity (2.13kg) - inefficient processing,low
+PRODUCTION,3.04,627.36,False,,,low
+TRANSFER,0.08,129.58,False,,,low
+QC_PASS,0.0,768.34,False,,,low
+BALING,0.32,885.96,False,,,low
+QUALITY_CONTROL,48.65,1023.26,True,high_loss,Unusually high loss (48.6%) for QUALITY_CONTROL,medium
+QUALITY_CONTROL,17.61,418.82,False,,,low
+SEGREGATION,9.84,1807.62,False,,,low
+INWARD,0.0,1344.87,False,,,low
+RECYCLING,6.96,579.24,False,,,low
+RECEIPT,0.0,2443.4,False,,,low
+QUALITY_CONTROL,21.6,488.63,False,,,low
+QUALITY_CONTROL,17.57,230.69,False,,,low
+PRODUCTION,1.99,1452.65,False,,,low
+INWARD,0.0,1066.99,False,,,low
+RECYCLING,8.72,609.18,False,,,low
+WASHING,8.12,612.3,False,,,low
+QC_PASS,-16.58,1887.56,True,impossible_yield,Yield exceeds 100% - data entry error,high
+WASHING,6.11,1507.6,False,,,low
+QUALITY_CONTROL,4.92,506.84,False,,,low
+WASHING,4.34,2.35,True,extreme_quantity_low,Unusually small quantity (2.35kg) - inefficient processing,low
+TRANSFER,35.21,835.33,True,process_mismatch,High loss (35.2%) for TRANSFER operation (should be <3%),high
+TRANSFER,1.09,244.73,False,,,low
+MIXING,1.98,332.16,False,,,low
+WASHING,7.81,2256.23,False,,,low
+WASHING,7.5,905.57,False,,,low
+QUALITY_CONTROL,-34.64,961.72,True,impossible_yield,Yield exceeds 100% - data entry error,high
+QUALITY_CONTROL,28.39,378.38,False,,,low
+SEGREGATION,7.03,1013.93,False,,,low
+RECYCLING,2.5,203.77,False,,,low
+WASHING,5.42,1171.41,False,,,low
+PRODUCTION,1.12,1590.69,False,,,low
+RECYCLING,8.93,393.93,False,,,low
+TRANSFER,-9.31,780.13,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QC_FAIL,-36.52,1144.18,True,impossible_yield,Yield exceeds 100% - data entry error,high
+QC_FAIL,-8.98,1818.3,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+WASHING,7.95,333.14,False,,,low
+QUALITY_CONTROL,16.63,1903.14,False,,,low
+QUALITY_CONTROL,22.27,402.41,False,,,low
+MIXING,1.64,5000.0,False,,,low
+TRANSFER,18.62,1914.33,True,process_mismatch,High loss (18.6%) for TRANSFER operation (should be <3%),high
+RECEIPT,0.0,269.38,False,,,low
+MANUFACTURING,4.25,1856.11,False,,,low
+QC_PASS,0.0,350.63,False,,,low
+BALING,-10.53,1785.65,True,impossible_yield,Yield exceeds 100% - data entry error,high
+INWARD,0.0,607.57,False,,,low
+MANUFACTURING,-18.89,520.89,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+RECYCLING,9.84,1078.41,False,,,low
+BALING,-49.21,1072.13,True,impossible_yield,Yield exceeds 100% - data entry error,high
+TRANSFER,1.02,756.33,False,,,low
+SEGREGATION,8.74,737.67,False,,,low
+WASHING,8.45,347.78,False,,,low
+QC_FAIL,100.0,788.6,False,,,low
+TRANSFER,0.98,620.38,False,,,low
+WASHING,3.75,5000.0,False,,,low
+RECYCLING,4.49,0.98,True,extreme_quantity_low,Unusually small quantity (0.98kg) - inefficient processing,low
+SEGREGATION,7.74,626.07,False,,,low
+MANUFACTURING,6.18,530.32,False,,,low
+SEGREGATION,20.43,776.44,False,,,low
+SEGREGATION,3.12,499.33,False,,,low
+SEGREGATION,-34.61,1348.41,True,impossible_yield,Yield exceeds 100% - data entry error,high
+TRANSFER,20.63,1603.59,True,process_mismatch,High loss (20.6%) for TRANSFER operation (should be <3%),high
+BALING,-42.17,1874.2,True,impossible_yield,Yield exceeds 100% - data entry error,high
+MIXING,3.97,964.3,False,,,low
+TRANSFER,34.16,1401.02,True,process_mismatch,High loss (34.2%) for TRANSFER operation (should be <3%),high
+MANUFACTURING,2.17,936.71,False,,,low
+PRODUCTION,2.65,454.3,False,,,low
+MANUFACTURING,3.13,280.25,False,,,low
+PRODUCTION,1.21,387.99,False,,,low
+RECYCLING,5.05,388088.62,True,extreme_quantity_high,Unusually large quantity (388089kg) for single processing batch,medium
+QC_FAIL,100.0,434.54,False,,,low
+RECYCLING,7.86,497415.82,True,extreme_quantity_high,Unusually large quantity (497416kg) for single processing batch,medium
+INWARD,0.0,554.37,False,,,low
+INWARD,0.0,3041.83,False,,,low
+TRANSFER,18.08,703.63,True,process_mismatch,High loss (18.1%) for TRANSFER operation (should be <3%),high
+RECEIPT,0.0,685.42,False,,,low
+TRANSFER,0.14,677.14,False,,,low
+SEGREGATION,0.0,379.54,False,,,low
+TRANSFER,0.61,239.2,False,,,low
+RECEIPT,0.0,400.67,False,,,low
+RECEIPT,42.61,1267.5,True,high_loss,Unusually high loss (42.6%) for RECEIPT,medium
+WASHING,5.42,256.34,False,,,low
+RECYCLING,2.58,1418.63,False,,,low
+TRANSFER,0.25,771.22,False,,,low
+RECYCLING,5.07,1163.47,False,,,low
+PRODUCTION,2.48,100.0,False,,,low
+MANUFACTURING,3.28,1.85,True,extreme_quantity_low,Unusually small quantity (1.85kg) - inefficient processing,low
+MIXING,1.88,275.19,False,,,low
+BALING,0.62,1314.58,False,,,low
+MANUFACTURING,-33.04,1408.78,True,impossible_yield,Yield exceeds 100% - data entry error,high
+QC_FAIL,100.0,430.06,False,,,low
+QUALITY_CONTROL,24.58,100.0,False,,,low
+BALING,65.02,383.07,True,high_loss,Unusually high loss (65.0%) for BALING,high
+BALING,7.9,0.6,True,extreme_quantity_low,Unusually small quantity (0.60kg) - inefficient processing,low
+WASHING,7.96,869.61,False,,,low
+PRODUCTION,1.7,893.56,False,,,low
+PRODUCTION,3.48,770.81,False,,,low
+INWARD,5.44,225898.65,True,extreme_quantity_high,Unusually large quantity (225899kg) for single processing batch,medium
+RECEIPT,0.0,210.4,False,,,low
+RECEIPT,0.0,560.42,False,,,low
+SEGREGATION,2.89,1178.26,False,,,low
+WASHING,7.56,776.47,False,,,low
+WASHING,4.83,280691.14,True,extreme_quantity_high,Unusually large quantity (280691kg) for single processing batch,medium
+TRANSFER,0.71,279.05,False,,,low
+TRANSFER,1.64,579.79,False,,,low
+SEGREGATION,16.33,483.2,False,,,low
+PRODUCTION,6.0,0.43,True,extreme_quantity_low,Unusually small quantity (0.43kg) - inefficient processing,low
+TRANSFER,0.56,1187.58,False,,,low
+QC_PASS,0.0,380.74,False,,,low
+TRANSFER,27.5,1183.68,True,process_mismatch,High loss (27.5%) for TRANSFER operation (should be <3%),high
+MIXING,2.22,240.62,False,,,low
+QC_FAIL,-13.48,1583.37,True,impossible_yield,Yield exceeds 100% - data entry error,high
+MANUFACTURING,1.99,243.88,False,,,low
+SEGREGATION,15.93,369.5,False,,,low
+TRANSFER,1.39,665.73,False,,,low
+RECYCLING,6.02,226.72,False,,,low
+QC_FAIL,100.0,112.64,False,,,low
+QUALITY_CONTROL,10.16,1789.6,False,,,low
+TRANSFER,1.84,874.53,False,,,low
+RECYCLING,11.04,569.84,False,,,low
+RECYCLING,8.24,3671.92,False,,,low
+TRANSFER,6.93,391012.73,True,extreme_quantity_high,Unusually large quantity (391013kg) for single processing batch,medium
+MIXING,1.76,1860.25,False,,,low
+RECEIPT,6.87,3.24,True,extreme_quantity_low,Unusually small quantity (3.24kg) - inefficient processing,low
+MIXING,2.02,143.47,False,,,low
+QUALITY_CONTROL,14.74,403.59,False,,,low
+SEGREGATION,6.21,574.94,False,,,low
+BALING,1.12,647.8,False,,,low
+SEGREGATION,15.28,725.17,False,,,low
+MANUFACTURING,2.29,523.71,False,,,low
+RECYCLING,9.07,1587.9,False,,,low
+RECEIPT,0.0,272.8,False,,,low
+MIXING,2.14,1293.62,False,,,low
+QC_PASS,0.0,817.13,False,,,low
+BALING,0.63,780.31,False,,,low
+SEGREGATION,11.19,355.64,False,,,low
+PRODUCTION,2.45,276.1,False,,,low
+PRODUCTION,3.48,1426.91,False,,,low
+INWARD,0.0,444.84,False,,,low
+SEGREGATION,13.41,447.93,False,,,low
+QUALITY_CONTROL,19.54,327.48,False,,,low
+QC_PASS,-13.32,1096.5,True,impossible_yield,Yield exceeds 100% - data entry error,high
+PRODUCTION,1.3,1153.51,False,,,low
+QC_PASS,0.0,2343.3,False,,,low
+MANUFACTURING,-5.59,1317.05,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+TRANSFER,31.96,1982.73,True,process_mismatch,High loss (32.0%) for TRANSFER operation (should be <3%),high
+BALING,0.28,522.87,False,,,low
+MANUFACTURING,3.48,301.78,False,,,low
+RECEIPT,0.0,633.41,False,,,low
+QC_FAIL,100.0,471.68,False,,,low
+RECEIPT,58.68,1217.65,True,high_loss,Unusually high loss (58.7%) for RECEIPT,high
+MANUFACTURING,3.76,1009.45,False,,,low
+QC_PASS,0.0,298.55,False,,,low
+TRANSFER,36.65,581.18,True,process_mismatch,High loss (36.6%) for TRANSFER operation (should be <3%),high
+MIXING,3.23,311.33,False,,,low
+BALING,0.34,1928.21,False,,,low
+QC_FAIL,100.0,466.81,False,,,low
+BALING,0.25,634.62,False,,,low
+QC_PASS,0.0,728.64,False,,,low
+MIXING,0.0,557.47,False,,,low
+PRODUCTION,0.91,1038.91,False,,,low
+BALING,0.35,241.17,False,,,low
+QC_FAIL,100.0,929.84,False,,,low
+SEGREGATION,1.5,1184.17,False,,,low
+QC_FAIL,100.0,414.55,False,,,low
+BALING,0.21,477.37,False,,,low
+QC_FAIL,100.0,1050.39,False,,,low
+RECEIPT,0.0,113.68,False,,,low
+BALING,-24.51,107.02,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+WASHING,-26.81,1210.59,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+MANUFACTURING,4.47,3.86,True,extreme_quantity_low,Unusually small quantity (3.86kg) - inefficient processing,low
+PRODUCTION,3.42,2.2,True,extreme_quantity_low,Unusually small quantity (2.20kg) - inefficient processing,low
+QUALITY_CONTROL,74.78,1896.28,True,high_loss,Unusually high loss (74.8%) for QUALITY_CONTROL,high
+PRODUCTION,2.03,2378.85,False,,,low
+MIXING,2.06,728.34,False,,,low
+TRANSFER,-23.15,1392.33,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+RECEIPT,-44.11,871.12,True,impossible_yield,Yield exceeds 100% - data entry error,high
+RECYCLING,5.09,492.59,False,,,low
+WASHING,3.3,757.66,False,,,low
+RECYCLING,9.63,1252.14,False,,,low
+QUALITY_CONTROL,13.05,1298.79,False,,,low
+MIXING,3.8,314129.79,True,extreme_quantity_high,Unusually large quantity (314130kg) for single processing batch,medium
+RECYCLING,4.56,204.18,False,,,low
+MANUFACTURING,4.53,413.49,False,,,low
+MIXING,3.9,713.09,False,,,low
+QC_PASS,0.0,1127.35,False,,,low
+MIXING,1.09,160.2,False,,,low
+QUALITY_CONTROL,0.0,348.01,False,,,low
+MIXING,-16.75,1897.72,True,impossible_yield,Yield exceeds 100% - data entry error,high
+RECYCLING,2.69,1158.8,False,,,low
+RECYCLING,4.75,264.65,False,,,low
+SEGREGATION,3.74,746.01,False,,,low
+QUALITY_CONTROL,24.62,1417.59,False,,,low
+QC_FAIL,100.0,333.22,False,,,low
+QC_FAIL,100.0,663.66,False,,,low
+QC_PASS,0.0,1031.17,False,,,low
+RECYCLING,8.45,1582.67,False,,,low
+INWARD,0.0,1291.37,False,,,low
+TRANSFER,1.47,577.73,False,,,low
+TRANSFER,6.19,0.31,True,extreme_quantity_low,Unusually small quantity (0.31kg) - inefficient processing,low
+QC_PASS,0.0,783.73,False,,,low
+BALING,0.59,488.31,False,,,low
+RECEIPT,0.0,1880.55,False,,,low
+INWARD,0.0,994.26,False,,,low
+PRODUCTION,4.45,3271.8,False,,,low
+SEGREGATION,6.25,0.77,True,extreme_quantity_low,Unusually small quantity (0.77kg) - inefficient processing,low
+BALING,0.72,1111.6,False,,,low
+PRODUCTION,2.97,683.63,False,,,low
+SEGREGATION,-16.53,1795.89,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+BALING,35.19,118.2,True,high_loss,Unusually high loss (35.2%) for BALING,medium
+MIXING,3.48,138194.4,True,extreme_quantity_high,Unusually large quantity (138194kg) for single processing batch,medium
+QC_FAIL,100.0,1380.36,False,,,low
+WASHING,8.41,812.05,False,,,low
+MANUFACTURING,1.72,4689.01,False,,,low
+QC_PASS,78.8,1665.24,True,high_loss,Unusually high loss (78.8%) for QC_PASS,high
+WASHING,6.48,890.97,False,,,low
+TRANSFER,38.35,689.46,True,process_mismatch,High loss (38.3%) for TRANSFER operation (should be <3%),high
+RECEIPT,0.0,843.69,False,,,low
+QC_FAIL,100.0,443.5,False,,,low
+PRODUCTION,3.69,361.62,False,,,low
+SEGREGATION,9.91,161.66,False,,,low
+PRODUCTION,2.52,767.93,False,,,low
+MIXING,3.14,435.66,False,,,low
+SEGREGATION,10.4,871.91,False,,,low
+WASHING,10.51,400.77,False,,,low
+WASHING,3.42,1284.19,False,,,low
+WASHING,8.54,725.16,False,,,low
+PRODUCTION,1.2,481.72,False,,,low
+INWARD,0.0,753.04,False,,,low
+SEGREGATION,5.95,141.41,False,,,low
+PRODUCTION,0.73,870.46,False,,,low
+SEGREGATION,74.17,893.39,True,high_loss,Unusually high loss (74.2%) for SEGREGATION,high
+MANUFACTURING,1.05,954.95,False,,,low
+TRANSFER,1.12,1247.78,False,,,low
+INWARD,0.0,105.28,False,,,low
+MIXING,0.62,1987.16,False,,,low
+BALING,0.3,636.62,False,,,low
+PRODUCTION,4.66,1035.17,False,,,low
+TRANSFER,0.13,867.24,False,,,low
+INWARD,4.93,134011.45,True,extreme_quantity_high,Unusually large quantity (134011kg) for single processing batch,medium
+SEGREGATION,41.94,1909.11,True,high_loss,Unusually high loss (41.9%) for SEGREGATION,medium
+MIXING,2.16,1113.54,False,,,low
+BALING,0.91,550.51,False,,,low
+RECYCLING,10.54,1898.71,False,,,low
+QC_FAIL,100.0,1984.48,False,,,low
+QUALITY_CONTROL,12.35,683.33,False,,,low
+TRANSFER,0.79,953.75,False,,,low
+TRANSFER,34.86,771.64,True,process_mismatch,High loss (34.9%) for TRANSFER operation (should be <3%),high
+INWARD,54.99,1633.15,True,high_loss,Unusually high loss (55.0%) for INWARD,high
+MANUFACTURING,1.03,484.11,False,,,low
+QUALITY_CONTROL,2.26,63358.51,True,extreme_quantity_high,Unusually large quantity (63359kg) for single processing batch,medium
+SEGREGATION,3.66,766.0,False,,,low
+PRODUCTION,4.51,368.74,False,,,low
+RECYCLING,10.06,497.45,False,,,low
+QC_FAIL,100.0,109.7,False,,,low
+QUALITY_CONTROL,60.73,176.54,True,high_loss,Unusually high loss (60.7%) for QUALITY_CONTROL,high
+TRANSFER,1.12,1371.92,False,,,low
+PRODUCTION,3.37,712.24,False,,,low
+RECEIPT,0.0,641.49,False,,,low
+TRANSFER,17.93,1273.15,True,process_mismatch,High loss (17.9%) for TRANSFER operation (should be <3%),high
+INWARD,0.0,223.34,False,,,low
+QUALITY_CONTROL,15.9,1688.39,False,,,low
+TRANSFER,1.43,680.99,False,,,low
+MIXING,2.14,428.17,False,,,low
+RECEIPT,0.0,505.44,False,,,low
+MANUFACTURING,3.2,0.18,True,extreme_quantity_low,Unusually small quantity (0.18kg) - inefficient processing,low
+PRODUCTION,1.36,100.0,False,,,low
+QC_FAIL,100.0,233.64,False,,,low
+QC_FAIL,6.1,173509.05,True,extreme_quantity_high,Unusually large quantity (173509kg) for single processing batch,medium
+PRODUCTION,6.31,202917.87,True,extreme_quantity_high,Unusually large quantity (202918kg) for single processing batch,medium
+SEGREGATION,-29.3,920.7,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+TRANSFER,0.92,875.1,False,,,low
+BALING,0.37,435.63,False,,,low
+MIXING,0.64,466.56,False,,,low
+BALING,0.53,1567.46,False,,,low
+BALING,66.01,1900.86,True,high_loss,Unusually high loss (66.0%) for BALING,high
+MANUFACTURING,2.94,1207.48,False,,,low
+MANUFACTURING,0.77,1082.05,False,,,low
+TRANSFER,1.05,181.19,False,,,low
+RECEIPT,-29.42,1942.64,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+SEGREGATION,10.22,932.57,False,,,low
+QUALITY_CONTROL,23.54,873.91,False,,,low
+QUALITY_CONTROL,30.9,364.92,False,,,low
+TRANSFER,31.29,1630.26,True,process_mismatch,High loss (31.3%) for TRANSFER operation (should be <3%),high
+BALING,0.06,161.54,False,,,low
+QUALITY_CONTROL,0.0,313.57,False,,,low
+BALING,0.49,3072.2,False,,,low
+MANUFACTURING,5.79,460718.94,True,extreme_quantity_high,Unusually large quantity (460719kg) for single processing batch,medium
+RECEIPT,0.0,276.24,False,,,low
+BALING,1.13,653.31,False,,,low
+TRANSFER,6.07,4.86,True,extreme_quantity_low,Unusually small quantity (4.86kg) - inefficient processing,low
+QC_FAIL,41.43,1589.21,True,high_loss,Unusually high loss (41.4%) for QC_FAIL,medium
+QC_PASS,0.0,706.6,False,,,low
+PRODUCTION,3.46,212.87,False,,,low
+TRANSFER,2.16,215.76,False,,,low
+QC_FAIL,100.0,527.24,False,,,low
+BALING,0.95,517.87,False,,,low
+SEGREGATION,2.38,470.08,False,,,low
+QUALITY_CONTROL,20.85,832.93,False,,,low
+INWARD,0.0,334.39,False,,,low
+TRANSFER,27.05,1311.0,True,process_mismatch,High loss (27.1%) for TRANSFER operation (should be <3%),high
+QC_FAIL,100.0,299.53,False,,,low
+PRODUCTION,0.44,5000.0,False,,,low
+TRANSFER,22.08,1620.59,True,process_mismatch,High loss (22.1%) for TRANSFER operation (should be <3%),high
+MIXING,1.84,295.5,False,,,low
+INWARD,49.78,1836.63,True,high_loss,Unusually high loss (49.8%) for INWARD,medium
+QC_PASS,0.0,976.57,False,,,low
+QC_PASS,0.0,2022.73,False,,,low
+BALING,6.86,425434.5,True,extreme_quantity_high,Unusually large quantity (425434kg) for single processing batch,medium
+SEGREGATION,7.82,444.28,False,,,low
+BALING,0.74,1381.97,False,,,low
+INWARD,0.0,724.71,False,,,low
+QC_PASS,0.0,810.77,False,,,low
+MANUFACTURING,7.49,2688.36,False,,,low
+BALING,0.95,240.74,False,,,low
+QC_PASS,0.0,310.77,False,,,low
+INWARD,0.0,3251.61,False,,,low
+SEGREGATION,16.87,571.72,False,,,low
+MIXING,1.37,313.05,False,,,low
+PRODUCTION,1.85,5000.0,False,,,low
+WASHING,6.61,481.39,False,,,low
+MIXING,0.56,1432.32,False,,,low
+MIXING,2.9,1394.41,False,,,low
+QC_PASS,0.0,632.5,False,,,low
+QC_PASS,3.99,1.29,True,extreme_quantity_low,Unusually small quantity (1.29kg) - inefficient processing,low
+MANUFACTURING,2.99,698.29,False,,,low
+QC_PASS,-15.86,1396.53,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QC_FAIL,100.0,1673.72,False,,,low
+INWARD,0.0,303.71,False,,,low
+MIXING,1.38,199.29,False,,,low
+TRANSFER,0.97,3070.53,False,,,low
+QC_FAIL,100.0,340.85,False,,,low
+BALING,0.0,1105.73,False,,,low
+QC_FAIL,100.0,606.89,False,,,low
+QC_PASS,0.0,485.53,False,,,low
+TRANSFER,0.91,358.61,False,,,low
+TRANSFER,4.21,273894.38,True,extreme_quantity_high,Unusually large quantity (273894kg) for single processing batch,medium
+WASHING,8.44,100.0,False,,,low
+INWARD,0.0,1524.99,False,,,low
+BALING,0.35,687.81,False,,,low
+TRANSFER,5.68,4.07,True,extreme_quantity_low,Unusually small quantity (4.07kg) - inefficient processing,low
+BALING,0.82,255.87,False,,,low
+QC_FAIL,100.0,247.35,False,,,low
+RECYCLING,10.34,1150.82,False,,,low
+SEGREGATION,6.07,2402.55,False,,,low
+BALING,-47.12,704.98,True,impossible_yield,Yield exceeds 100% - data entry error,high
+RECEIPT,0.0,403.13,False,,,low
+MANUFACTURING,1.72,1867.52,False,,,low
+QC_FAIL,100.0,362.02,False,,,low
+RECEIPT,0.0,715.55,False,,,low
+RECYCLING,9.11,229.07,False,,,low
+TRANSFER,0.91,713.31,False,,,low
+TRANSFER,1.96,398.25,False,,,low
+WASHING,9.66,325.96,False,,,low
+SEGREGATION,15.98,232.67,False,,,low
+QC_FAIL,100.0,557.09,False,,,low
+TRANSFER,0.95,1493.19,False,,,low
+RECYCLING,57.71,975.78,True,high_loss,Unusually high loss (57.7%) for RECYCLING,high
+MIXING,2.49,497.76,False,,,low
+SEGREGATION,13.23,538.35,False,,,low
+PRODUCTION,1.49,453.83,False,,,low
+TRANSFER,1.2,852.67,False,,,low
+QUALITY_CONTROL,23.44,1605.82,False,,,low
+QUALITY_CONTROL,10.0,440.15,False,,,low
+QC_PASS,72.52,352.34,True,high_loss,Unusually high loss (72.5%) for QC_PASS,high
+TRANSFER,1.11,1492.64,False,,,low
+QUALITY_CONTROL,70.16,1002.93,True,high_loss,Unusually high loss (70.2%) for QUALITY_CONTROL,high
+SEGREGATION,12.84,1108.58,False,,,low
+RECYCLING,-14.07,586.94,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+PRODUCTION,1.31,723.59,False,,,low
+BALING,4.84,311534.01,True,extreme_quantity_high,Unusually large quantity (311534kg) for single processing batch,medium
+TRANSFER,6.91,3.36,True,extreme_quantity_low,Unusually small quantity (3.36kg) - inefficient processing,low
+RECEIPT,0.0,181.25,False,,,low
+PRODUCTION,3.35,1707.19,False,,,low
+PRODUCTION,2.98,912.02,False,,,low
+RECEIPT,0.0,202.29,False,,,low
+RECYCLING,4.21,688.44,False,,,low
+RECEIPT,0.0,1343.74,False,,,low
+PRODUCTION,1.15,643.53,False,,,low
+RECEIPT,38.98,414.67,True,high_loss,Unusually high loss (39.0%) for RECEIPT,medium
+QC_FAIL,100.0,4904.62,False,,,low
+BALING,0.58,272.64,False,,,low
+INWARD,0.0,1167.7,False,,,low
+PRODUCTION,2.49,268.45,False,,,low
+PRODUCTION,6.74,197456.27,True,extreme_quantity_high,Unusually large quantity (197456kg) for single processing batch,medium
+BALING,0.52,1274.9,False,,,low
+SEGREGATION,17.56,804.75,False,,,low
+MANUFACTURING,5.21,653.61,False,,,low
+MANUFACTURING,4.38,0.15,True,extreme_quantity_low,Unusually small quantity (0.15kg) - inefficient processing,low
+QC_FAIL,100.0,421.68,False,,,low
+PRODUCTION,3.24,2025.62,False,,,low
+RECEIPT,0.0,849.4,False,,,low
+QUALITY_CONTROL,5.9,463.57,False,,,low
+BALING,0.39,236.81,False,,,low
+WASHING,-23.39,1683.81,True,impossible_yield,Yield exceeds 100% - data entry error,high
+MIXING,1.74,1835.12,False,,,low
+QC_PASS,0.0,1020.83,False,,,low
+WASHING,6.83,163.3,False,,,low
+RECYCLING,64.09,103.89,True,high_loss,Unusually high loss (64.1%) for RECYCLING,high
+MANUFACTURING,4.35,343.55,False,,,low
+QC_FAIL,100.0,628.81,False,,,low
+MIXING,2.54,298.72,False,,,low
+RECEIPT,0.0,750.79,False,,,low
+PRODUCTION,4.07,532.98,False,,,low
+BALING,0.42,1057.3,False,,,low
+TRANSFER,38.55,1359.26,True,process_mismatch,High loss (38.6%) for TRANSFER operation (should be <3%),high
+QC_FAIL,100.0,1516.56,False,,,low
+QUALITY_CONTROL,0.0,1506.14,False,,,low
+QC_FAIL,100.0,513.61,False,,,low
+SEGREGATION,-36.31,1378.47,True,impossible_yield,Yield exceeds 100% - data entry error,high
+MANUFACTURING,2.79,401.42,False,,,low
+MANUFACTURING,1.47,1323.65,False,,,low
+SEGREGATION,5.21,2.02,True,extreme_quantity_low,Unusually small quantity (2.02kg) - inefficient processing,low
+TRANSFER,25.56,1210.13,True,process_mismatch,High loss (25.6%) for TRANSFER operation (should be <3%),high
+TRANSFER,0.63,531.44,False,,,low
+SEGREGATION,8.55,574.08,False,,,low
+INWARD,0.0,578.41,False,,,low
+SEGREGATION,17.07,1526.73,False,,,low
+RECYCLING,8.74,1750.02,False,,,low
+INWARD,0.0,3845.89,False,,,low
+TRANSFER,3.23,0.29,True,extreme_quantity_low,Unusually small quantity (0.29kg) - inefficient processing,low
+SEGREGATION,16.01,1237.67,False,,,low
+QC_FAIL,100.0,954.1,False,,,low
+QC_FAIL,100.0,1342.16,False,,,low
+QC_PASS,0.0,214.34,False,,,low
+QUALITY_CONTROL,16.51,199.85,False,,,low
+WASHING,-7.9,526.64,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+TRANSFER,1.2,1401.55,False,,,low
+QUALITY_CONTROL,21.96,439.97,False,,,low
+PRODUCTION,2.46,258.58,False,,,low
+RECEIPT,0.0,676.89,False,,,low
+TRANSFER,1.2,350.09,False,,,low
+QC_PASS,0.0,2553.43,False,,,low
+QC_FAIL,100.0,535.77,False,,,low
+INWARD,0.0,922.65,False,,,low
+PRODUCTION,2.17,515.84,False,,,low
+QC_PASS,0.0,3425.38,False,,,low
+TRANSFER,29.29,649.16,True,process_mismatch,High loss (29.3%) for TRANSFER operation (should be <3%),high
+WASHING,-16.02,660.34,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QC_PASS,0.0,263.92,False,,,low
+INWARD,0.0,301.87,False,,,low
+SEGREGATION,9.32,1962.33,False,,,low
+BALING,-15.53,262.52,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+BALING,0.81,158.33,False,,,low
+INWARD,0.0,709.05,False,,,low
+BALING,0.77,445.9,False,,,low
+SEGREGATION,9.34,1162.2,False,,,low
+BALING,73.79,144.2,True,high_loss,Unusually high loss (73.8%) for BALING,high
+QUALITY_CONTROL,7.97,549.91,False,,,low
+TRANSFER,0.87,759.99,False,,,low
+BALING,0.15,1619.88,False,,,low
+WASHING,6.75,645.96,False,,,low
+MIXING,1.75,461.08,False,,,low
+MANUFACTURING,2.42,632.25,False,,,low
+MIXING,2.27,439.26,False,,,low
+SEGREGATION,2.5,3.32,True,extreme_quantity_low,Unusually small quantity (3.32kg) - inefficient processing,low
+QC_PASS,0.0,354.51,False,,,low
+RECEIPT,0.0,972.34,False,,,low
+RECYCLING,7.06,459792.03,True,extreme_quantity_high,Unusually large quantity (459792kg) for single processing batch,medium
+INWARD,0.0,622.37,False,,,low
+QC_PASS,0.0,1652.27,False,,,low
+MANUFACTURING,2.91,1064.71,False,,,low
+BALING,0.68,253.1,False,,,low
+QUALITY_CONTROL,16.34,616.41,False,,,low
+BALING,0.0,1449.51,False,,,low
+INWARD,-15.85,737.75,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+PRODUCTION,3.58,1245.53,False,,,low
+RECEIPT,0.0,470.67,False,,,low
+QC_FAIL,100.0,2532.79,False,,,low
+INWARD,0.0,127.14,False,,,low
+TRANSFER,3.23,225786.27,True,extreme_quantity_high,Unusually large quantity (225786kg) for single processing batch,medium
+BALING,0.23,423.51,False,,,low
+MIXING,2.77,572.39,False,,,low
+MIXING,1.08,309.92,False,,,low
+MIXING,3.35,886.95,False,,,low
+BALING,1.0,821.4,False,,,low
+QUALITY_CONTROL,26.21,391.97,False,,,low
+MANUFACTURING,5.07,1831.82,False,,,low
+RECYCLING,-17.34,502.37,True,impossible_yield,Yield exceeds 100% - data entry error,high
+QUALITY_CONTROL,2.35,976.98,False,,,low
+RECYCLING,9.86,347.68,False,,,low
+TRANSFER,33.06,867.5,True,process_mismatch,High loss (33.1%) for TRANSFER operation (should be <3%),high
+MANUFACTURING,0.56,772.47,False,,,low
+TRANSFER,20.27,1598.99,True,process_mismatch,High loss (20.3%) for TRANSFER operation (should be <3%),high
+MIXING,0.69,773.14,False,,,low
+RECYCLING,5.5,2686.22,False,,,low
+PRODUCTION,37.05,1504.45,True,high_loss,Unusually high loss (37.0%) for PRODUCTION,medium
+PRODUCTION,1.86,993.0,False,,,low
+QC_FAIL,100.0,1800.2,False,,,low
+TRANSFER,0.83,689.01,False,,,low
+WASHING,4.79,1016.93,False,,,low
+RECYCLING,7.86,262.11,False,,,low
+TRANSFER,1.63,1262.14,False,,,low
+INWARD,3.03,4.8,True,extreme_quantity_low,Unusually small quantity (4.80kg) - inefficient processing,low
+INWARD,-25.61,1217.51,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QC_PASS,0.0,1337.09,False,,,low
+RECEIPT,0.0,3450.41,False,,,low
+RECYCLING,7.95,1271.59,False,,,low
+SEGREGATION,10.63,832.96,False,,,low
+QUALITY_CONTROL,-15.3,305.21,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QUALITY_CONTROL,3.68,276.13,False,,,low
+TRANSFER,2.05,595.58,False,,,low
+RECEIPT,0.0,140.68,False,,,low
+RECEIPT,-32.23,1410.14,True,impossible_yield,Yield exceeds 100% - data entry error,high
+MIXING,2.0,285.04,False,,,low
+RECEIPT,0.0,121.61,False,,,low
+TRANSFER,35.81,1994.46,True,process_mismatch,High loss (35.8%) for TRANSFER operation (should be <3%),high
+RECEIPT,0.0,420.2,False,,,low
+INWARD,0.0,1549.02,False,,,low
+PRODUCTION,44.7,1656.34,True,high_loss,Unusually high loss (44.7%) for PRODUCTION,medium
+TRANSFER,18.2,1695.23,True,process_mismatch,High loss (18.2%) for TRANSFER operation (should be <3%),high
+QC_PASS,0.0,376.51,False,,,low
+MANUFACTURING,4.74,914.08,False,,,low
+INWARD,0.0,1612.3,False,,,low
+RECEIPT,0.0,1085.52,False,,,low
+MIXING,2.19,226.21,False,,,low
+WASHING,9.18,260.97,False,,,low
+BALING,0.56,2262.59,False,,,low
+BALING,0.66,551.63,False,,,low
+INWARD,0.0,2200.34,False,,,low
+WASHING,3.03,436868.31,True,extreme_quantity_high,Unusually large quantity (436868kg) for single processing batch,medium
+MANUFACTURING,3.72,2115.93,False,,,low
+BALING,3.65,0.14,True,extreme_quantity_low,Unusually small quantity (0.14kg) - inefficient processing,low
+INWARD,-18.93,1016.59,True,impossible_yield,Yield exceeds 100% - data entry error,high
+MANUFACTURING,2.99,1343.69,False,,,low
+MANUFACTURING,3.97,416.75,False,,,low
+RECYCLING,4.27,1838.77,False,,,low
+QC_PASS,0.0,344.56,False,,,low
+MANUFACTURING,62.47,1919.09,True,high_loss,Unusually high loss (62.5%) for MANUFACTURING,high
+QUALITY_CONTROL,10.03,1054.86,False,,,low
+MANUFACTURING,2.51,212.55,False,,,low
+SEGREGATION,-19.05,1126.76,True,impossible_yield,Yield exceeds 100% - data entry error,high
+QC_FAIL,100.0,2926.7,False,,,low
+SEGREGATION,10.41,2090.0,False,,,low
+QC_FAIL,100.0,147.79,False,,,low
+QUALITY_CONTROL,6.77,289.64,False,,,low
+INWARD,0.0,206.77,False,,,low
+RECYCLING,5.22,265213.01,True,extreme_quantity_high,Unusually large quantity (265213kg) for single processing batch,medium
+PRODUCTION,4.97,1040.0,False,,,low
+INWARD,0.0,236.39,False,,,low
+QC_PASS,0.0,356.34,False,,,low
+QC_PASS,0.0,1832.3,False,,,low
+TRANSFER,31.04,1862.72,True,process_mismatch,High loss (31.0%) for TRANSFER operation (should be <3%),high
+MANUFACTURING,2.09,162.02,False,,,low
+PRODUCTION,3.05,572.17,False,,,low
+PRODUCTION,3.66,1441.94,False,,,low
+INWARD,0.0,307.75,False,,,low
+QC_FAIL,100.0,100.0,False,,,low
+RECEIPT,3.47,70787.84,True,extreme_quantity_high,Unusually large quantity (70788kg) for single processing batch,medium
+INWARD,0.0,401.37,False,,,low
+PRODUCTION,4.27,985.51,False,,,low
+INWARD,0.0,944.7,False,,,low
+QC_FAIL,100.0,1022.71,False,,,low
+INWARD,0.0,1051.48,False,,,low
+PRODUCTION,3.74,528.24,False,,,low
+QUALITY_CONTROL,-29.08,1036.39,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+RECEIPT,0.0,424.31,False,,,low
+TRANSFER,21.84,1771.5,True,process_mismatch,High loss (21.8%) for TRANSFER operation (should be <3%),high
+TRANSFER,0.5,676.1,False,,,low
+TRANSFER,1.01,398.57,False,,,low
+QC_PASS,0.0,1518.26,False,,,low
+QC_PASS,0.0,1173.25,False,,,low
+SEGREGATION,-20.63,940.79,True,impossible_yield,Yield exceeds 100% - data entry error,high
+QC_FAIL,100.0,820.57,False,,,low
+TRANSFER,1.45,495.6,False,,,low
+MIXING,2.32,4.6,True,extreme_quantity_low,Unusually small quantity (4.60kg) - inefficient processing,low
+MIXING,1.02,1202.26,False,,,low
+QC_PASS,0.0,508.85,False,,,low
+RECEIPT,0.0,694.53,False,,,low
+QC_FAIL,7.71,439459.75,True,extreme_quantity_high,Unusually large quantity (439460kg) for single processing batch,medium
+TRANSFER,28.87,1700.77,True,process_mismatch,High loss (28.9%) for TRANSFER operation (should be <3%),high
+PRODUCTION,2.62,486.71,False,,,low
+QC_PASS,0.0,1538.74,False,,,low
+QC_PASS,0.0,991.39,False,,,low
+QC_PASS,0.0,316.35,False,,,low
+MIXING,1.97,1098.99,False,,,low
+QUALITY_CONTROL,-29.75,779.98,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+PRODUCTION,2.68,622.56,False,,,low
+SEGREGATION,6.79,1056.95,False,,,low
+PRODUCTION,2.65,1406.48,False,,,low
+INWARD,0.0,533.38,False,,,low
+BALING,0.36,705.63,False,,,low
+RECYCLING,4.67,335.76,False,,,low
+MIXING,0.21,528.31,False,,,low
+BALING,1.05,332.18,False,,,low
+TRANSFER,20.29,1629.88,True,process_mismatch,High loss (20.3%) for TRANSFER operation (should be <3%),high
+QC_PASS,5.96,0.6,True,extreme_quantity_low,Unusually small quantity (0.60kg) - inefficient processing,low
+SEGREGATION,79.09,1129.38,True,high_loss,Unusually high loss (79.1%) for SEGREGATION,high
+INWARD,0.0,253.45,False,,,low
+QC_PASS,0.0,394.64,False,,,low
+MANUFACTURING,5.91,164.39,False,,,low
+SEGREGATION,14.9,189.21,False,,,low
+RECEIPT,6.51,218419.74,True,extreme_quantity_high,Unusually large quantity (218420kg) for single processing batch,medium
+RECEIPT,0.0,523.42,False,,,low
+QC_PASS,0.0,414.42,False,,,low
+BALING,0.54,529.6,False,,,low
+RECEIPT,0.0,436.49,False,,,low
+RECEIPT,-42.48,1979.27,True,impossible_yield,Yield exceeds 100% - data entry error,high
+QC_PASS,0.0,201.05,False,,,low
+MIXING,2.44,256.54,False,,,low
+MANUFACTURING,3.14,583.96,False,,,low
+MIXING,3.03,1596.93,False,,,low
+QC_FAIL,100.0,512.23,False,,,low
+QC_PASS,0.0,743.76,False,,,low
+WASHING,8.62,1327.1,False,,,low
+MANUFACTURING,5.35,2118.02,False,,,low
+RECEIPT,0.0,373.44,False,,,low
+MANUFACTURING,2.59,82106.9,True,extreme_quantity_high,Unusually large quantity (82107kg) for single processing batch,medium
+RECYCLING,0.64,369.13,False,,,low
+RECYCLING,11.31,287.11,False,,,low
+BALING,0.46,722.07,False,,,low
+MANUFACTURING,4.36,377.68,False,,,low
+SEGREGATION,-15.94,1717.76,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QUALITY_CONTROL,22.47,682.11,False,,,low
+WASHING,3.18,1448.02,False,,,low
+MANUFACTURING,4.57,473868.4,True,extreme_quantity_high,Unusually large quantity (473868kg) for single processing batch,medium
+TRANSFER,1.16,1767.0,False,,,low
+RECEIPT,52.11,767.69,True,high_loss,Unusually high loss (52.1%) for RECEIPT,high
+QUALITY_CONTROL,3.1,3.19,True,extreme_quantity_low,Unusually small quantity (3.19kg) - inefficient processing,low
+WASHING,5.68,219.93,False,,,low
+SEGREGATION,9.15,195.17,False,,,low
+QUALITY_CONTROL,6.22,867.99,False,,,low
+RECYCLING,8.99,289.66,False,,,low
+MANUFACTURING,7.57,1.94,True,extreme_quantity_low,Unusually small quantity (1.94kg) - inefficient processing,low
+BALING,0.04,2353.24,False,,,low
+RECEIPT,0.0,750.94,False,,,low
+RECEIPT,45.52,1783.7,True,high_loss,Unusually high loss (45.5%) for RECEIPT,medium
+QC_FAIL,100.0,166.78,False,,,low
+RECEIPT,0.0,220.24,False,,,low
+BALING,0.41,887.3,False,,,low
+QC_PASS,0.0,627.48,False,,,low
+WASHING,2.5,544.85,False,,,low
+QUALITY_CONTROL,6.94,1492.52,False,,,low
+SEGREGATION,37.33,555.28,True,high_loss,Unusually high loss (37.3%) for SEGREGATION,medium
+RECYCLING,11.06,1953.26,False,,,low
+BALING,0.0,564.93,False,,,low
+TRANSFER,0.87,323.07,False,,,low
+RECYCLING,7.18,724.11,False,,,low
+RECEIPT,0.0,1061.69,False,,,low
+RECYCLING,8.14,1477.07,False,,,low
+BALING,1.14,100.0,False,,,low
+WASHING,10.62,3123.43,False,,,low
+QUALITY_CONTROL,22.34,126.26,False,,,low
+BALING,0.2,814.84,False,,,low
+TRANSFER,0.93,211.73,False,,,low
+MANUFACTURING,3.57,1635.9,False,,,low
+RECEIPT,0.0,130.86,False,,,low
+INWARD,0.0,864.58,False,,,low
+QC_FAIL,100.0,362.22,False,,,low
+QC_PASS,7.7,0.79,True,extreme_quantity_low,Unusually small quantity (0.79kg) - inefficient processing,low
+WASHING,8.89,4420.16,False,,,low
+TRANSFER,-12.39,1955.74,True,impossible_yield,Yield exceeds 100% - data entry error,high
+PRODUCTION,1.99,540.69,False,,,low
+SEGREGATION,2.66,2020.16,False,,,low
+WASHING,7.1,189.71,False,,,low
+MIXING,1.06,221.92,False,,,low
+PRODUCTION,-11.96,1627.16,True,impossible_yield,Yield exceeds 100% - data entry error,high
+WASHING,3.81,1018.64,False,,,low
+TRANSFER,0.31,1961.83,False,,,low
+WASHING,4.96,666.19,False,,,low
+QC_PASS,0.0,415.13,False,,,low
+PRODUCTION,0.19,1055.38,False,,,low
+SEGREGATION,9.82,1946.41,False,,,low
+MANUFACTURING,3.4,346806.45,True,extreme_quantity_high,Unusually large quantity (346806kg) for single processing batch,medium
+QC_FAIL,100.0,384.31,False,,,low
+WASHING,1.52,422.69,False,,,low
+QUALITY_CONTROL,16.95,3086.78,False,,,low
+WASHING,6.03,906.21,False,,,low
+MANUFACTURING,5.29,1218.8,False,,,low
+RECEIPT,0.0,321.1,False,,,low
+BALING,0.1,676.46,False,,,low
+BALING,38.78,1308.02,True,high_loss,Unusually high loss (38.8%) for BALING,medium
+QC_FAIL,100.0,1008.84,False,,,low
+QUALITY_CONTROL,-49.33,1040.31,True,impossible_yield,Yield exceeds 100% - data entry error,high
+WASHING,9.85,427.29,False,,,low
+QC_FAIL,100.0,1607.72,False,,,low
+BALING,0.38,5000.0,False,,,low
+SEGREGATION,4.92,326.66,False,,,low
+TRANSFER,24.06,1784.21,True,process_mismatch,High loss (24.1%) for TRANSFER operation (should be <3%),high
+PRODUCTION,3.92,1543.44,False,,,low
+RECEIPT,0.0,2769.23,False,,,low
+TRANSFER,22.6,1481.95,True,process_mismatch,High loss (22.6%) for TRANSFER operation (should be <3%),high
+WASHING,7.1,1775.13,False,,,low
+QC_PASS,0.0,791.69,False,,,low
+RECYCLING,6.07,1083.45,False,,,low
+TRANSFER,19.48,1231.26,True,process_mismatch,High loss (19.5%) for TRANSFER operation (should be <3%),high
+BALING,-15.01,729.18,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+RECEIPT,0.0,2491.05,False,,,low
+RECEIPT,0.0,1259.26,False,,,low
+INWARD,0.0,716.16,False,,,low
+QC_PASS,0.0,909.57,False,,,low
+BALING,3.4,314151.64,True,extreme_quantity_high,Unusually large quantity (314152kg) for single processing batch,medium
+WASHING,5.28,200191.03,True,extreme_quantity_high,Unusually large quantity (200191kg) for single processing batch,medium
+SEGREGATION,-15.27,749.19,True,impossible_yield,Yield exceeds 100% - data entry error,high
+TRANSFER,24.84,1726.19,True,process_mismatch,High loss (24.8%) for TRANSFER operation (should be <3%),high
+MIXING,2.27,559.68,False,,,low
+TRANSFER,15.58,1359.47,True,process_mismatch,High loss (15.6%) for TRANSFER operation (should be <3%),high
+RECEIPT,0.0,1090.82,False,,,low
+SEGREGATION,11.97,249.99,False,,,low
+RECEIPT,0.0,400.04,False,,,low
+QUALITY_CONTROL,13.17,209.87,False,,,low
+RECYCLING,4.18,1630.71,False,,,low
+QC_FAIL,100.0,1718.0,False,,,low
+INWARD,59.38,1539.47,True,high_loss,Unusually high loss (59.4%) for INWARD,high
+QC_PASS,0.0,1357.62,False,,,low
+TRANSFER,36.04,1888.98,True,process_mismatch,High loss (36.0%) for TRANSFER operation (should be <3%),high
+RECEIPT,0.0,1611.6,False,,,low
+QC_FAIL,44.26,1676.41,True,high_loss,Unusually high loss (44.3%) for QC_FAIL,medium
+RECEIPT,0.0,225.89,False,,,low
+MANUFACTURING,-6.41,1573.92,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QC_FAIL,100.0,2116.58,False,,,low
+MANUFACTURING,-24.02,1495.71,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+MIXING,70.05,1756.83,True,high_loss,Unusually high loss (70.0%) for MIXING,high
+TRANSFER,1.64,616.3,False,,,low
+RECYCLING,-42.94,779.6,True,impossible_yield,Yield exceeds 100% - data entry error,high
+WASHING,6.37,361.6,False,,,low
+PRODUCTION,1.61,1152.0,False,,,low
+INWARD,-19.04,281.77,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+MIXING,2.84,514.44,False,,,low
+WASHING,5.05,1365.03,False,,,low
+TRANSFER,4.71,1.34,True,extreme_quantity_low,Unusually small quantity (1.34kg) - inefficient processing,low
+RECEIPT,0.0,402.25,False,,,low
+TRANSFER,22.72,1985.5,True,process_mismatch,High loss (22.7%) for TRANSFER operation (should be <3%),high
+MIXING,3.14,750.03,False,,,low
+MIXING,3.09,975.75,False,,,low
+BALING,0.61,367.83,False,,,low
+RECEIPT,0.0,745.75,False,,,low
+QUALITY_CONTROL,9.47,148.65,False,,,low
+QC_FAIL,100.0,937.31,False,,,low
+QC_PASS,0.0,292.7,False,,,low
+QUALITY_CONTROL,5.15,267483.67,True,extreme_quantity_high,Unusually large quantity (267484kg) for single processing batch,medium
+TRANSFER,33.71,1602.98,True,process_mismatch,High loss (33.7%) for TRANSFER operation (should be <3%),high
+MANUFACTURING,1.39,355.71,False,,,low
+QC_FAIL,-43.76,1930.64,True,impossible_yield,Yield exceeds 100% - data entry error,high
+RECEIPT,0.0,905.76,False,,,low
+QC_PASS,5.62,112039.31,True,extreme_quantity_high,Unusually large quantity (112039kg) for single processing batch,medium
+RECYCLING,6.93,2468.01,False,,,low
+MIXING,3.9,5000.0,False,,,low
+TRANSFER,0.27,2450.64,False,,,low
+QC_PASS,49.63,1619.64,True,high_loss,Unusually high loss (49.6%) for QC_PASS,medium
+RECEIPT,-18.11,1414.5,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+RECEIPT,0.0,769.45,False,,,low
+QC_PASS,7.26,0.76,True,extreme_quantity_low,Unusually small quantity (0.76kg) - inefficient processing,low
+TRANSFER,0.0,1692.89,False,,,low
+QC_PASS,-28.37,593.29,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+TRANSFER,0.51,182.32,False,,,low
+TRANSFER,0.82,474.81,False,,,low
+MIXING,2.14,854.89,False,,,low
+RECYCLING,6.69,2752.85,False,,,low
+QUALITY_CONTROL,3.91,243293.07,True,extreme_quantity_high,Unusually large quantity (243293kg) for single processing batch,medium
+WASHING,3.57,463.96,False,,,low
+SEGREGATION,11.58,517.94,False,,,low
+SEGREGATION,7.47,1798.53,False,,,low
+MANUFACTURING,-14.96,748.74,True,impossible_yield,Yield exceeds 100% - data entry error,high
+RECEIPT,6.49,2.48,True,extreme_quantity_low,Unusually small quantity (2.48kg) - inefficient processing,low
+INWARD,0.0,755.22,False,,,low
+QC_PASS,0.0,634.56,False,,,low
+MANUFACTURING,3.7,708.56,False,,,low
+INWARD,5.52,434495.94,True,extreme_quantity_high,Unusually large quantity (434496kg) for single processing batch,medium
+QC_PASS,0.0,303.37,False,,,low
+SEGREGATION,6.6,1132.6,False,,,low
+TRANSFER,1.7,550.47,False,,,low
+RECYCLING,6.33,288.34,False,,,low
+SEGREGATION,7.97,0.48,True,extreme_quantity_low,Unusually small quantity (0.48kg) - inefficient processing,low
+MIXING,1.55,1126.1,False,,,low
+SEGREGATION,6.31,669.07,False,,,low
+WASHING,4.7,522.81,False,,,low
+RECYCLING,10.37,441.39,False,,,low
+TRANSFER,30.04,833.21,True,process_mismatch,High loss (30.0%) for TRANSFER operation (should be <3%),high
+PRODUCTION,1.79,1451.82,False,,,low
+WASHING,-34.97,1280.11,True,impossible_yield,Yield exceeds 100% - data entry error,high
+WASHING,1.42,341.42,False,,,low
+BALING,-30.59,1640.8,True,impossible_yield,Yield exceeds 100% - data entry error,high
+QC_PASS,0.0,505.1,False,,,low
+PRODUCTION,4.14,1130.06,False,,,low
+RECEIPT,-15.21,1272.37,True,impossible_yield,Yield exceeds 100% - data entry error,high
+TRANSFER,0.63,560.24,False,,,low
+WASHING,6.31,490.48,False,,,low
+INWARD,0.0,496.6,False,,,low
+MANUFACTURING,3.51,1094.83,False,,,low
+QC_PASS,0.0,323.64,False,,,low
+INWARD,5.78,321351.25,True,extreme_quantity_high,Unusually large quantity (321351kg) for single processing batch,medium
+QC_PASS,0.0,316.53,False,,,low
+MANUFACTURING,-24.14,1038.24,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+PRODUCTION,-46.57,687.02,True,impossible_yield,Yield exceeds 100% - data entry error,high
+QC_PASS,0.0,101.46,False,,,low
+SEGREGATION,11.99,1022.42,False,,,low
+QUALITY_CONTROL,4.56,260397.94,True,extreme_quantity_high,Unusually large quantity (260398kg) for single processing batch,medium
+QUALITY_CONTROL,28.37,2295.97,False,,,low
+TRANSFER,-24.17,1239.19,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QC_PASS,0.0,3886.15,False,,,low
+PRODUCTION,2.41,399.62,False,,,low
+RECYCLING,1.61,112.3,False,,,low
+SEGREGATION,8.57,1775.47,False,,,low
+INWARD,0.0,1397.55,False,,,low
+TRANSFER,18.0,623.96,True,process_mismatch,High loss (18.0%) for TRANSFER operation (should be <3%),high
+RECYCLING,-42.08,772.98,True,impossible_yield,Yield exceeds 100% - data entry error,high
+RECEIPT,0.0,240.94,False,,,low
+PRODUCTION,7.05,0.94,True,extreme_quantity_low,Unusually small quantity (0.94kg) - inefficient processing,low
+RECEIPT,0.0,554.71,False,,,low
+QC_FAIL,100.0,2280.96,False,,,low
+QC_FAIL,7.3,1.66,True,extreme_quantity_low,Unusually small quantity (1.66kg) - inefficient processing,low
+INWARD,0.0,227.67,False,,,low
+BALING,0.2,318.25,False,,,low
+PRODUCTION,4.29,130804.58,True,extreme_quantity_high,Unusually large quantity (130805kg) for single processing batch,medium
+TRANSFER,32.29,1807.91,True,process_mismatch,High loss (32.3%) for TRANSFER operation (should be <3%),high
+MANUFACTURING,0.75,1364.7,False,,,low
+INWARD,0.0,3601.25,False,,,low
+QC_PASS,-34.08,962.15,True,impossible_yield,Yield exceeds 100% - data entry error,high
+MANUFACTURING,2.32,226.38,False,,,low
+QC_FAIL,100.0,2128.29,False,,,low
+TRANSFER,0.0,327.4,False,,,low
+WASHING,3.44,729.2,False,,,low
+QUALITY_CONTROL,16.67,1710.93,False,,,low
+TRANSFER,0.84,3300.87,False,,,low
+QC_FAIL,100.0,1848.79,False,,,low
+QC_FAIL,100.0,112.84,False,,,low
+SEGREGATION,5.21,201.38,False,,,low
+INWARD,0.0,3173.17,False,,,low
+RECEIPT,60.17,465.61,True,high_loss,Unusually high loss (60.2%) for RECEIPT,high
+RECEIPT,0.0,100.0,False,,,low
+QUALITY_CONTROL,0.05,741.95,False,,,low
+TRANSFER,-19.96,1272.87,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+BALING,0.46,462.03,False,,,low
+RECYCLING,4.38,563.64,False,,,low
+BALING,0.49,656.38,False,,,low
+QUALITY_CONTROL,5.86,3.83,True,extreme_quantity_low,Unusually small quantity (3.83kg) - inefficient processing,low
+BALING,0.43,3702.12,False,,,low
+QC_PASS,0.0,842.34,False,,,low
+QC_FAIL,100.0,2387.3,False,,,low
+WASHING,11.13,347.22,False,,,low
+WASHING,2.63,514.19,False,,,low
+SEGREGATION,5.52,635.29,False,,,low
+INWARD,0.0,226.78,False,,,low
+MANUFACTURING,4.11,528.2,False,,,low
+RECYCLING,4.67,4.14,True,extreme_quantity_low,Unusually small quantity (4.14kg) - inefficient processing,low
+WASHING,-31.72,1547.46,True,impossible_yield,Yield exceeds 100% - data entry error,high
+MIXING,5.86,403642.98,True,extreme_quantity_high,Unusually large quantity (403643kg) for single processing batch,medium
+TRANSFER,-23.82,1599.56,True,impossible_yield,Yield exceeds 100% - data entry error,high
+RECEIPT,0.0,214.22,False,,,low
+MANUFACTURING,-12.67,986.42,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+MIXING,0.29,402.75,False,,,low
+QC_PASS,0.0,448.88,False,,,low
+QC_PASS,7.06,3.98,True,extreme_quantity_low,Unusually small quantity (3.98kg) - inefficient processing,low
+MIXING,3.36,591.28,False,,,low
+RECYCLING,-9.02,1642.55,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+INWARD,0.0,1327.19,False,,,low
+QUALITY_CONTROL,0.0,418.85,False,,,low
+PRODUCTION,3.76,649.78,False,,,low
+MANUFACTURING,4.05,248.13,False,,,low
+TRANSFER,1.59,206.03,False,,,low
+TRANSFER,32.8,1804.79,True,process_mismatch,High loss (32.8%) for TRANSFER operation (should be <3%),high
+TRANSFER,1.38,406.09,False,,,low
+RECYCLING,-26.31,686.48,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+BALING,-10.12,1771.88,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QC_FAIL,-19.63,889.03,True,impossible_yield,Yield exceeds 100% - data entry error,high
+PRODUCTION,2.25,223.28,False,,,low
+MANUFACTURING,0.0,573.97,False,,,low
+QC_PASS,48.9,1325.8,True,high_loss,Unusually high loss (48.9%) for QC_PASS,medium
+PRODUCTION,3.22,182.41,False,,,low
+INWARD,3.95,3.19,True,extreme_quantity_low,Unusually small quantity (3.19kg) - inefficient processing,low
+PRODUCTION,2.16,996.52,False,,,low
+BALING,35.09,1140.32,True,high_loss,Unusually high loss (35.1%) for BALING,medium
+TRANSFER,0.89,775.03,False,,,low
+QUALITY_CONTROL,6.7,231715.01,True,extreme_quantity_high,Unusually large quantity (231715kg) for single processing batch,medium
+QC_FAIL,100.0,683.66,False,,,low
+QC_PASS,-22.94,1546.21,True,impossible_yield,Yield exceeds 100% - data entry error,high
+RECEIPT,-19.2,293.47,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+WASHING,3.24,452698.08,True,extreme_quantity_high,Unusually large quantity (452698kg) for single processing batch,medium
+INWARD,0.0,199.18,False,,,low
+PRODUCTION,2.45,371.23,False,,,low
+MANUFACTURING,-29.7,1139.36,True,impossible_yield,Yield exceeds 100% - data entry error,high
+WASHING,5.09,1419.43,False,,,low
+TRANSFER,4.06,2.06,True,extreme_quantity_low,Unusually small quantity (2.06kg) - inefficient processing,low
+PRODUCTION,4.67,208208.73,True,extreme_quantity_high,Unusually large quantity (208209kg) for single processing batch,medium
+INWARD,0.0,1581.93,False,,,low
+RECYCLING,4.74,682.47,False,,,low
+WASHING,3.83,1086.56,False,,,low
+RECEIPT,0.0,470.67,False,,,low
+QC_FAIL,100.0,1957.34,False,,,low
+QC_PASS,0.0,133.2,False,,,low
+MIXING,2.01,1656.07,False,,,low
+RECEIPT,0.0,2645.34,False,,,low
+RECYCLING,3.09,947.03,False,,,low
+QUALITY_CONTROL,9.56,3273.55,False,,,low
+BALING,0.72,364.1,False,,,low
+RECEIPT,0.0,635.6,False,,,low
+QC_FAIL,100.0,812.15,False,,,low
+SEGREGATION,5.29,473.92,False,,,low
+TRANSFER,39.53,999.72,True,process_mismatch,High loss (39.5%) for TRANSFER operation (should be <3%),high
+QC_FAIL,100.0,328.6,False,,,low
+QUALITY_CONTROL,26.79,469.63,False,,,low
+QC_PASS,0.0,572.62,False,,,low
+TRANSFER,50.25,187.06,True,high_loss,Unusually high loss (50.3%) for TRANSFER,high
+QUALITY_CONTROL,-9.82,814.23,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+SEGREGATION,9.65,112.99,False,,,low
+TRANSFER,32.98,1498.9,True,process_mismatch,High loss (33.0%) for TRANSFER operation (should be <3%),high
+QUALITY_CONTROL,-15.08,1709.41,True,impossible_yield,Yield exceeds 100% - data entry error,high
+TRANSFER,-17.97,1279.62,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+BALING,-38.67,1343.21,True,impossible_yield,Yield exceeds 100% - data entry error,high
+INWARD,0.0,1066.05,False,,,low
+SEGREGATION,11.75,715.97,False,,,low
+QC_PASS,0.0,1722.24,False,,,low
+RECEIPT,-41.94,1793.64,True,impossible_yield,Yield exceeds 100% - data entry error,high
+WASHING,5.46,905.6,False,,,low
+TRANSFER,2.28,2699.28,False,,,low
+QC_FAIL,100.0,1568.75,False,,,low
+BALING,0.63,1277.43,False,,,low
+SEGREGATION,8.93,946.04,False,,,low
+BALING,4.04,88644.14,True,extreme_quantity_high,Unusually large quantity (88644kg) for single processing batch,medium
+QUALITY_CONTROL,26.71,243.41,False,,,low
+RECYCLING,8.27,634.14,False,,,low
+WASHING,5.28,340.09,False,,,low
+RECEIPT,0.0,903.2,False,,,low
+BALING,0.63,924.5,False,,,low
+TRANSFER,7.27,79419.88,True,extreme_quantity_high,Unusually large quantity (79420kg) for single processing batch,medium
+INWARD,0.0,1540.77,False,,,low
+WASHING,-49.49,1251.05,True,impossible_yield,Yield exceeds 100% - data entry error,high
+QC_FAIL,100.0,631.55,False,,,low
+SEGREGATION,13.23,1629.05,False,,,low
+RECEIPT,7.29,2.34,True,extreme_quantity_low,Unusually small quantity (2.34kg) - inefficient processing,low
+MIXING,2.37,489.26,False,,,low
+MIXING,1.34,188.97,False,,,low
+PRODUCTION,2.82,1178.67,False,,,low
+INWARD,0.0,207.06,False,,,low
+WASHING,4.04,1227.96,False,,,low
+RECEIPT,0.0,3208.42,False,,,low
+MANUFACTURING,-5.39,1313.03,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+PRODUCTION,2.05,184763.37,True,extreme_quantity_high,Unusually large quantity (184763kg) for single processing batch,medium
+RECYCLING,3.95,164.71,False,,,low
+RECEIPT,0.0,674.81,False,,,low
+RECEIPT,46.76,1530.12,True,high_loss,Unusually high loss (46.8%) for RECEIPT,medium
+BALING,0.24,1439.8,False,,,low
+QC_FAIL,100.0,871.63,False,,,low
+TRANSFER,0.98,317.12,False,,,low
+PRODUCTION,0.48,852.17,False,,,low
+SEGREGATION,8.32,343.89,False,,,low
+MIXING,1.28,5000.0,False,,,low
+MIXING,0.11,693.98,False,,,low
+TRANSFER,-34.89,1206.07,True,impossible_yield,Yield exceeds 100% - data entry error,high
+QC_FAIL,100.0,622.02,False,,,low
+RECYCLING,0.0,348.58,False,,,low
+WASHING,7.94,1.75,True,extreme_quantity_low,Unusually small quantity (1.75kg) - inefficient processing,low
+QC_FAIL,100.0,399.82,False,,,low
+WASHING,-47.56,1627.7,True,impossible_yield,Yield exceeds 100% - data entry error,high
+TRANSFER,0.92,1739.83,False,,,low
+RECEIPT,3.1,2.89,True,extreme_quantity_low,Unusually small quantity (2.89kg) - inefficient processing,low
+QC_FAIL,100.0,110.34,False,,,low
+RECEIPT,44.57,1697.3,True,high_loss,Unusually high loss (44.6%) for RECEIPT,medium
+BALING,0.73,2407.47,False,,,low
+BALING,0.31,940.0,False,,,low
+SEGREGATION,5.07,2023.89,False,,,low
+BALING,0.1,367.27,False,,,low
+INWARD,3.22,3.61,True,extreme_quantity_low,Unusually small quantity (3.61kg) - inefficient processing,low
+QC_PASS,-12.33,497.26,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+QC_FAIL,100.0,344.91,False,,,low
+SEGREGATION,15.61,522.01,False,,,low
+INWARD,0.0,949.48,False,,,low
+TRANSFER,0.76,662.98,False,,,low
+QC_FAIL,100.0,4150.7,False,,,low
+QC_PASS,0.0,1554.65,False,,,low
+BALING,0.76,602.74,False,,,low
+RECEIPT,0.0,412.6,False,,,low
+QC_PASS,0.0,1221.49,False,,,low
+RECYCLING,9.12,3525.47,False,,,low
+INWARD,0.0,337.92,False,,,low
+RECYCLING,4.42,3800.35,False,,,low
+INWARD,73.35,309.64,True,high_loss,Unusually high loss (73.4%) for INWARD,high
+MIXING,2.65,1.7,True,extreme_quantity_low,Unusually small quantity (1.70kg) - inefficient processing,low
+MIXING,3.21,246.74,False,,,low
+MIXING,1.45,2965.74,False,,,low
+RECYCLING,6.99,186.4,False,,,low
+RECYCLING,7.61,218348.31,True,extreme_quantity_high,Unusually large quantity (218348kg) for single processing batch,medium
+QC_FAIL,100.0,743.39,False,,,low
+TRANSFER,0.49,169.27,False,,,low
+INWARD,48.94,959.51,True,high_loss,Unusually high loss (48.9%) for INWARD,medium
+QUALITY_CONTROL,18.99,231.35,False,,,low
+RECYCLING,2.15,896.16,False,,,low
+QC_FAIL,100.0,709.83,False,,,low
+QUALITY_CONTROL,5.06,271.42,False,,,low
+INWARD,0.0,3440.44,False,,,low
+RECYCLING,1.28,619.74,False,,,low
+RECEIPT,0.0,444.33,False,,,low
+WASHING,-13.14,1042.12,True,impossible_yield,Yield exceeds 100% - data entry error,high
+SEGREGATION,10.19,423.54,False,,,low
+BALING,-37.54,1582.51,True,impossible_yield,Yield exceeds 100% - data entry error,high
+SEGREGATION,11.56,1692.58,False,,,low
+QC_PASS,0.0,533.94,False,,,low
+RECEIPT,0.0,1473.63,False,,,low
+INWARD,0.0,832.17,False,,,low
+RECYCLING,8.82,1605.3,False,,,low
+QC_FAIL,100.0,306.94,False,,,low
+RECEIPT,0.0,356.56,False,,,low
+BALING,0.51,941.95,False,,,low
+QUALITY_CONTROL,8.89,435.98,False,,,low
+INWARD,0.0,371.88,False,,,low
+SEGREGATION,6.98,795.64,False,,,low
+QC_PASS,0.0,839.63,False,,,low
+RECEIPT,6.17,3.77,True,extreme_quantity_low,Unusually small quantity (3.77kg) - inefficient processing,low
+INWARD,0.0,401.55,False,,,low
+MANUFACTURING,2.78,142554.65,True,extreme_quantity_high,Unusually large quantity (142555kg) for single processing batch,medium
+WASHING,5.45,699.89,False,,,low
+MIXING,2.18,112527.6,True,extreme_quantity_high,Unusually large quantity (112528kg) for single processing batch,medium
+PRODUCTION,3.48,913.33,False,,,low
+QC_FAIL,100.0,645.06,False,,,low
+RECYCLING,5.62,4.7,True,extreme_quantity_low,Unusually small quantity (4.70kg) - inefficient processing,low
+QC_PASS,0.0,513.31,False,,,low
+QC_FAIL,100.0,337.05,False,,,low
+TRANSFER,36.55,1542.82,True,process_mismatch,High loss (36.6%) for TRANSFER operation (should be <3%),high
+WASHING,7.72,127.45,False,,,low
+TRANSFER,-32.37,1869.46,True,impossible_yield,Yield exceeds 100% - data entry error,high
+MANUFACTURING,1.69,704.67,False,,,low
+MANUFACTURING,3.71,671.48,False,,,low
+WASHING,7.51,465.67,False,,,low
+INWARD,0.0,345.87,False,,,low
+QUALITY_CONTROL,50.37,973.62,True,high_loss,Unusually high loss (50.4%) for QUALITY_CONTROL,high
+TRANSFER,1.37,519.44,False,,,low
+RECYCLING,2.37,136.24,False,,,low
+PRODUCTION,2.62,1625.13,False,,,low
+QC_PASS,54.16,882.9,True,high_loss,Unusually high loss (54.2%) for QC_PASS,high
+SEGREGATION,-19.65,1882.3,True,impossible_yield,Yield exceeds 100% - data entry error,high
+RECYCLING,6.34,0.32,True,extreme_quantity_low,Unusually small quantity (0.32kg) - inefficient processing,low
+TRANSFER,0.8,730.75,False,,,low
+RECYCLING,7.43,440.22,False,,,low
+MIXING,2.31,716.3,False,,,low
+WASHING,3.37,1473.56,False,,,low
+BALING,0.28,324.37,False,,,low
+SEGREGATION,6.29,1271.21,False,,,low
+QC_FAIL,-39.37,1228.89,True,impossible_yield,Yield exceeds 100% - data entry error,high
+SEGREGATION,-10.32,1333.28,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+MIXING,2.61,2152.27,False,,,low
+RECEIPT,0.0,1314.09,False,,,low
+QC_PASS,0.0,2624.71,False,,,low
+BALING,0.38,141.46,False,,,low
+PRODUCTION,0.91,3693.78,False,,,low
+MIXING,2.02,333.11,False,,,low
+PRODUCTION,3.2,804.53,False,,,low
+TRANSFER,24.41,1974.05,True,process_mismatch,High loss (24.4%) for TRANSFER operation (should be <3%),high
+RECYCLING,8.16,306.06,False,,,low
+RECEIPT,0.0,402.42,False,,,low
+QC_FAIL,100.0,1268.18,False,,,low
+QC_FAIL,100.0,319.78,False,,,low
+MANUFACTURING,2.92,673.78,False,,,low
+WASHING,11.48,1347.38,False,,,low
+RECYCLING,6.55,100.08,False,,,low
+QC_FAIL,100.0,1282.01,False,,,low
+SEGREGATION,14.09,2477.07,False,,,low
+QUALITY_CONTROL,7.51,928.38,False,,,low
+WASHING,0.04,877.34,False,,,low
+RECEIPT,0.0,1909.43,False,,,low
+QC_PASS,0.0,966.62,False,,,low
+INWARD,0.0,108.54,False,,,low
+SEGREGATION,15.15,541.51,False,,,low
+QC_PASS,0.0,922.93,False,,,low
+TRANSFER,1.24,5000.0,False,,,low
+TRANSFER,-29.79,1602.39,True,impossible_yield,Yield exceeds 100% - data entry error,high
+RECYCLING,57.76,1021.05,True,high_loss,Unusually high loss (57.8%) for RECYCLING,high
+BALING,0.31,460.77,False,,,low
+RECEIPT,63.06,835.75,True,high_loss,Unusually high loss (63.1%) for RECEIPT,high
+MIXING,3.56,272.7,False,,,low
+QC_PASS,0.0,287.05,False,,,low
+WASHING,-26.88,803.91,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+RECEIPT,-34.06,1416.21,True,impossible_yield,Yield exceeds 100% - data entry error,high
+MANUFACTURING,2.18,516.87,False,,,low
+TRANSFER,22.29,1949.74,True,process_mismatch,High loss (22.3%) for TRANSFER operation (should be <3%),high
+SEGREGATION,5.48,630.29,False,,,low
+SEGREGATION,12.49,1420.15,False,,,low
+MIXING,0.0,2537.04,False,,,low
+MIXING,6.75,4.62,True,extreme_quantity_low,Unusually small quantity (4.62kg) - inefficient processing,low
+RECEIPT,0.0,783.97,False,,,low
+MANUFACTURING,2.0,299.32,False,,,low
+RECYCLING,7.02,1414.24,False,,,low
+MANUFACTURING,3.59,84149.8,True,extreme_quantity_high,Unusually large quantity (84150kg) for single processing batch,medium
+WASHING,8.89,408.79,False,,,low
+TRANSFER,0.38,579.62,False,,,low
+QC_PASS,0.0,1559.78,False,,,low
+QC_PASS,-17.78,846.3,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+INWARD,0.0,770.0,False,,,low
+QUALITY_CONTROL,3.47,1442.65,False,,,low
+QC_PASS,0.0,691.91,False,,,low
+MANUFACTURING,2.58,728.3,False,,,low
+TRANSFER,1.37,668.55,False,,,low
+QUALITY_CONTROL,0.0,153.89,False,,,low
+BALING,0.89,515.67,False,,,low
+PRODUCTION,1.47,1019.8,False,,,low
+INWARD,0.0,513.66,False,,,low
+RECEIPT,0.0,793.54,False,,,low
+BALING,0.08,439.89,False,,,low
+QC_FAIL,100.0,3036.04,False,,,low
+INWARD,0.0,360.29,False,,,low
+RECYCLING,40.3,679.36,True,high_loss,Unusually high loss (40.3%) for RECYCLING,medium
+QUALITY_CONTROL,5.61,1931.48,False,,,low
+RECYCLING,10.57,1141.51,False,,,low
+TRANSFER,0.33,177.36,False,,,low
+WASHING,5.78,176032.99,True,extreme_quantity_high,Unusually large quantity (176033kg) for single processing batch,medium
+RECEIPT,0.0,346.61,False,,,low
+BALING,3.26,86633.47,True,extreme_quantity_high,Unusually large quantity (86633kg) for single processing batch,medium
+TRANSFER,0.47,375.25,False,,,low
+BALING,0.3,351.86,False,,,low
+MIXING,2.32,1061.15,False,,,low
+RECYCLING,6.84,592.35,False,,,low
+INWARD,0.0,551.76,False,,,low
+WASHING,1.9,671.68,False,,,low
+RECYCLING,11.51,2057.17,False,,,low
+RECEIPT,0.0,917.65,False,,,low
+QC_FAIL,100.0,1000.34,False,,,low
+RECEIPT,-10.43,962.75,True,negative_loss,Negative loss - more output than input (data entry error or fraud),high
+PRODUCTION,2.51,1416.93,False,,,low
+TRANSFER,3.26,252487.37,True,extreme_quantity_high,Unusually large quantity (252487kg) for single processing batch,medium
+MANUFACTURING,1.79,2069.84,False,,,low
+WASHING,6.38,418.57,False,,,low
+QC_FAIL,100.0,1583.83,False,,,low
+MANUFACTURING,1.94,286.07,False,,,low
+PRODUCTION,1.79,975.07,False,,,low
+MANUFACTURING,5.58,2468.6,False,,,low

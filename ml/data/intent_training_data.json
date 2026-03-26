@@ -1,0 +1,2402 @@
+[
+  {
+    "text": "Got 3863 containers of PP granules from PureStream Materials at Receiving Dock",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Combined materials into batch - 20.0 tonnes total",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "Check inventory for natural HDPE",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "How much did we dispatch 27 Dec 2025?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Pending orders from CircularPoly Ltd?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "Cleaning completed for 3569 kg natural HDPE",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Show me colored PET stock levels",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "rPET chips wash done - 12.2 pallets output",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "New batch: 9873 tonnes recycled PET at Finished Goods Store",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "What's the current stock of post-consumer PET?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Track colored PET from PlastiCycle Co",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "What's the current stock of stretch film?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Show loss percentage for washed",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Total black HDPE available?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Classified 5950 bales food-grade PET as Premium",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "What's the source of stretch film at Holding Area?",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Current stock of flexible film waste: 6397 bales",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "7241 tons agricultural film passed QC as Grade A",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Split mixed rigid plastics into Rejected category - 8322 tonnes",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Stock adjustment for PP granules at Raw Material Store",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "What's our colored PET inventory?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "List all transactions with ClearStream Plastics",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "What's the yield for food-grade PET?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Separated out 7065 MT of Standard shrink wrap",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Transaction history for 2026-03-21",
+    "intent": "query.history"
+  },
+  {
+    "text": "Classified 3872 containers colored PET as Grade B",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Segregated 2427 kg of HDPE regrind into Standard",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Incoming shipment: 5984 kg mixed plastic bales from GreenLoop Suppliers",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Washing treatment finished for batch of stretch film",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "How much post-consumer PET do we have?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Segregated 3878 bags of rPET chips into A+",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Sold 2195 MT plastic scrap to ClearStream Plastics for Rs.13265",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Outgoing shipment - 68.0 MT black HDPE to RecoverTech Materials",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Got 3512 containers of clear PET from EcoPlast Solutions at Pelletizing Unit",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Where did this mixed plastic bales come from?",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Batch of HDPE regrind tested and approved as Rejected",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Show me all LDPE film movements",
+    "intent": "query.history"
+  },
+  {
+    "text": "Processed 4074 kg mixed plastic bales through wash line",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Record 55.6 MT HDPE pellets bought from EarthFirst Materials for EUR 28966",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Add entry for 5306 tonnes of PP granules received at Pelletizing Unit",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Show lineage for clear PET batch",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Classified 83.6 tons food-grade PET as A+",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "How much did we dispatch 08/03/2026?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Separated out 5090 tons of Grade A HDPE pellets",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Show loss percentage for treated",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "3693 tons plastic scrap passed QC as B-",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Got 138 tons of PVC scrap from EcoMat Trading at Sorting Station 1",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Compare yields across materials",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Shipped 80.9 MT recycled PET to EcoPlast Solutions on Friday",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "QC result for PVC scrap: Technical Grade",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "What did we purchase last week?",
+    "intent": "query.history"
+  },
+  {
+    "text": "RecycleMax Corp picked up 52.8 MT of PVC scrap",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Segregated 9793 kg of HDPE bottles into Technical Grade",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "How much agricultural film do we have?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Show me PP regrind stock levels",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Outgoing shipment - 2803 bags mixed plastic bales to GreenLoop Suppliers",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Check inventory for PP regrind",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "How much did we dispatch today?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Created batch from 663 bags of flexible film waste",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "New stock: 6740 kg mixed rigid plastics from PlastiCycle Co",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Cleaning completed for 9165 pallets natural HDPE",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Sent out 4539 bags PP granules from Distribution Center",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Cleaning completed for 8930 containers natural HDPE",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Sorted HDPE regrind batch - 9829 kg as Grade C",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Inventory count: 2601 tons of food-grade PET",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Processed 8911 tons plastic scrap through wash line",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "How many pallets of LDPE film in Quarantine Zone?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Show transactions for HDPE pellets",
+    "intent": "query.history"
+  },
+  {
+    "text": "Current stock of clear PET: 9931 pieces",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Total HDPE pellets available?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Dispatched 557 bales of natural HDPE to GreenCycle Industries",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Completed segregation of PET preforms batch at Quarantine Zone",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "New batch: 60.1 kg food-grade PET at Receiving Dock",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "Created batch from 2571 tons of HDPE bottles",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "What's our throughput for this week?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "What's the source of PP regrind at QC Lab?",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Made batch LOT-7544 from food-grade PET",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "Tested 4257 MT food-grade PET - result: Grade B",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Split PVC scrap into Standard category - 5492 tonnes",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Created batch from 5921 bales of HDPE bottles",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "RecoverTech Materials delivery history",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "Created batch from 7140 tonnes of rPET chips",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "HDPE pellets wash done - 9921 kg output",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Register incoming plastic scrap - 6817 MT from EnviroCollect Inc",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "What's our throughput for 03/01/2026?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Average quality grade for flexible film waste?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Classified 77.9 tons natural HDPE as Standard",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Got 7589 pieces of clear PET from RecycleMax Corp at Processing Facility A",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Update inventory: bottle-grade PET is now 1477 pallets",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Check inventory for PET preforms",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Show lineage for PVC scrap batch",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Segregated 44.6 tonnes of black HDPE into Technical Grade",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "What materials from RecoverTech Materials?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "What's the yield for shrink wrap?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Tested 9964 bales bottle-grade PET - result: Food Grade",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Total purchases from ClearStream Plastics?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "1223 pallets rPET chips sorted at Raw Material Store",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Add entry for 4385 tons of agricultural film received at Processing Facility A",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Sold 18.1 MT agricultural film to CircularPoly Ltd for INR 18030",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Show transactions for shrink wrap",
+    "intent": "query.history"
+  },
+  {
+    "text": "PlastiCycle Co delivery history",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "69.1 bales bottle-grade PET received from RecoverTech Materials 02/01/2026",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Register incoming bottle-grade PET - 6048 bales from RecoverTech Materials",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Dispatched 8859 bales of stretch film to EcoMat Trading",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "24.1 bags LDPE film passed QC as Premium",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "List all transactions with PlastiCycle Co",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "What's the current stock of stretch film?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "List all transactions with CleanChain Supply",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "Current stock of rPET chips: 2460 pallets",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "What's the source of PP regrind at QC Lab?",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Show lineage for HDPE regrind batch",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Trace back PET flakes to origin",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Quality inspection: bottle-grade PET graded as B-",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Delivery to SustainaPack: 87 pallets post-consumer PET",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "We procured 4396 tonnes of PVC scrap from EnviroCollect Inc",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Separated out 6348 bags of Premium black HDPE",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Stock adjustment for HDPE pellets at Storage Unit B",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Incoming shipment: 6221 MT mixed plastic bales from EcoMat Trading",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Trace back colored PET to origin",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Show me HDPE pellets stock levels",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Stock adjustment for LDPE film at Distribution Center",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Show loss percentage for re-cleaned",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "agricultural film stock at Main Warehouse is 9878 kg",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Cleaning completed for 997 tonnes stretch film",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Inspection complete - natural HDPE is Technical Grade",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "8844 MT HDPE bottles received from EarthFirst Materials last Tuesday",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Made batch BT-6544 from mixed rigid plastics",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "What did we purchase last month?",
+    "intent": "query.history"
+  },
+  {
+    "text": "What's the yield for mixed rigid plastics?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "897 tonnes clear PET received from EcoPlast Solutions on Monday",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Ran 2537 containers PP regrind through washing at Main Warehouse",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "List all transactions with PlastiCycle Co",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "New batch: 9897 tons HDPE bottles at Dispatch Bay",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "List all purchases from RecycleMax Corp",
+    "intent": "query.history"
+  },
+  {
+    "text": "Add entry for 57.7 kg of HDPE bottles received at Dispatch Bay",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Delivery to PlastiCycle Co: 15.5 pieces HDPE pellets",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Completed segregation of plastic scrap batch at Washing Plant",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Transaction history for 2026-01-16",
+    "intent": "query.history"
+  },
+  {
+    "text": "Show me all natural HDPE movements",
+    "intent": "query.history"
+  },
+  {
+    "text": "Show loss percentage for shipped",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Average quality grade for LDPE film?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Stock adjustment for PVC scrap at QC Lab",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Delivery to ClearStream Plastics: 162 bales stretch film",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "What happened to batch LOT-8300?",
+    "intent": "query.history"
+  },
+  {
+    "text": "Show material flow for LOT-3257",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Record 4830 pieces PVC scrap bought from RecoverTech Materials for EUR 48985",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "New stock: 4010 tons post-industrial HDPE from ClearStream Plastics",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Pending orders from GreenCycle Industries?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "Pending orders from PureStream Materials?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "Shipped 2039 kg colored PET to CleanChain Supply last Tuesday",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Tested 97.4 MT food-grade PET - result: A+",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Add entry for 4470 tons of stretch film received at Quarantine Zone",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Show me all post-industrial HDPE movements",
+    "intent": "query.history"
+  },
+  {
+    "text": "What materials from RecoverTech Materials?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "What's our agricultural film inventory?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "What happened to batch B-9419?",
+    "intent": "query.history"
+  },
+  {
+    "text": "PureStream Materials picked up 42.5 kg of plastic scrap",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "QC result for plastic scrap: B-",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "How much did we dispatch yesterday?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "How much have we bought from CleanChain Supply?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "Merged PP regrind inputs - batch LOT-9813",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "What materials from ClearStream Plastics?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "mixed rigid plastics wash done - 74.3 kg output",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "New stock: 7496 kg natural HDPE from CircularPoly Ltd",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Sold 3219 pieces LDPE film to PureStream Materials for INR 49720",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "New stock: 7539 bales natural HDPE from GreenCycle Industries",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Washing treatment finished for batch of rPET chips",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "List all purchases from EnviroCollect Inc",
+    "intent": "query.history"
+  },
+  {
+    "text": "Trace the journey of B-6518",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Batch of food-grade PET tested and approved as Food Grade",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Cleaning completed for 266 pieces PVC scrap",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Check inventory for HDPE pellets",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Inspection complete - post-industrial HDPE is Rejected",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Transaction history for this morning",
+    "intent": "query.history"
+  },
+  {
+    "text": "What's our throughput for 2026-03-18?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Inspection complete - PVC scrap is Grade B",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "What did we purchase 15/03/2026?",
+    "intent": "query.history"
+  },
+  {
+    "text": "History of stretch film at Main Warehouse",
+    "intent": "query.history"
+  },
+  {
+    "text": "Batch of recycled PET tested and approved as Technical Grade",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Show me PP regrind stock levels",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Outgoing shipment - 6315 MT post-industrial HDPE to EcoPlast Solutions",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Show lineage for PP regrind batch",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "What's the source of clear PET at Main Warehouse?",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Check inventory for HDPE bottles",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "History of bottle-grade PET at Storage Unit B",
+    "intent": "query.history"
+  },
+  {
+    "text": "Trace back rPET chips to origin",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Trace back LDPE film to origin",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Current stock of natural HDPE: 2383 MT",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "What's our LDPE film inventory?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Sorted bottle-grade PET batch - 9211 tons as A+",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Stock adjustment for food-grade PET at Storage Unit B",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "How much mixed plastic bales do we have?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Current stock of shrink wrap: 8.5 MT",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Current stock of colored PET: 2686 kg",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Track natural HDPE from GreenLoop Suppliers",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "List all purchases from EcoPlast Solutions",
+    "intent": "query.history"
+  },
+  {
+    "text": "Split agricultural film into B- category - 7611 pallets",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "How many tons of recycled PET in QC Lab?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "What did we purchase last Tuesday?",
+    "intent": "query.history"
+  },
+  {
+    "text": "Sent out 8540 containers rPET chips from Dispatch Bay",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Split food-grade PET into Rejected category - 651 pieces",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "What did we purchase January 25?",
+    "intent": "query.history"
+  },
+  {
+    "text": "Where did this PP regrind come from?",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "What's the source of LDPE film at Receiving Dock?",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "What happened to batch LOT-9078?",
+    "intent": "query.history"
+  },
+  {
+    "text": "EarthFirst Materials delivered 3511 tons of natural HDPE 2026-03-05",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Update inventory: post-consumer PET is now 47.0 tons",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Washing treatment finished for batch of mixed rigid plastics",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Where did this colored PET come from?",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "History of mixed rigid plastics at Sorting Station 1",
+    "intent": "query.history"
+  },
+  {
+    "text": "Show transactions for HDPE bottles",
+    "intent": "query.history"
+  },
+  {
+    "text": "Track HDPE bottles from ClearStream Plastics",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Pending orders from RecycleMax Corp?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "Incoming shipment: 5419 bags clear PET from PureStream Materials",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "How much have we bought from EcoMat Trading?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "QC failed for 71.5 containers of bottle-grade PET",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Total purchases from NatureCycle?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Average quality grade for agricultural film?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "What did we purchase 29/01/2026?",
+    "intent": "query.history"
+  },
+  {
+    "text": "Sent out 823 MT plastic scrap from Holding Area",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "9781 tonnes PVC scrap received from RecoverTech Materials last Tuesday",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Update inventory: HDPE pellets is now 2.7 tonnes",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Show me all PVC scrap movements",
+    "intent": "query.history"
+  },
+  {
+    "text": "Classified 3901 pallets HDPE pellets as Premium",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Delivery to GreenLoop Suppliers: 4086 pieces HDPE bottles",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "How much have we bought from PureStream Materials?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "54.2 tons post-industrial HDPE received from GreenCycle Industries 2026-01-23",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Register incoming plastic scrap - 6961 bales from NatureCycle",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "What's our HDPE bottles inventory?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Incoming shipment: 8356 containers agricultural film from PlastiCycle Co",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Show me natural HDPE stock levels",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Merged flexible film waste inputs - batch BT-7945",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "History of HDPE pellets at QC Lab",
+    "intent": "query.history"
+  },
+  {
+    "text": "Inspection complete - stretch film is A+",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "CleanChain Supply delivery history",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "PureStream Materials picked up 2857 tons of HDPE bottles",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "What materials from GreenCycle Industries?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "Show material flow for B-9311",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Sorted bottle-grade PET batch - 81.9 tons as Grade C",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Show material flow for B-9516",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Log purchase of 6221 bales post-consumer PET from ClearStream Plastics",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Total purchases from PureStream Materials?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "flexible film waste stock at Sorting Station 1 is 14.6 kg",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Pending orders from RecoverTech Materials?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "Separated out 4944 tonnes of Grade B agricultural film",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "How much post-industrial HDPE do we have?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "New batch: 34.8 pallets post-industrial HDPE at Storage Unit B",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "Total purchases from NatureCycle?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Transaction history for on Friday",
+    "intent": "query.history"
+  },
+  {
+    "text": "Trace the journey of BT-2594",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Inspection complete - PET preforms is Grade C",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Update inventory: clear PET is now 1131 MT",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "How much flexible film waste do we have?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Register incoming shrink wrap - 80.5 pallets from RecycleMax Corp",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Transaction history for 05 Mar 2026",
+    "intent": "query.history"
+  },
+  {
+    "text": "Quality inspection: natural HDPE graded as Premium",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Dispatched 6885 MT of colored PET to ClearStream Plastics",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "New batch: 2989 tons PVC scrap at Quarantine Zone",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "Total purchases from ClearStream Plastics?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "What's the current stock of natural HDPE?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "How many pallets of food-grade PET in Reject Storage?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Sold 59.1 pallets PET preforms to NatureCycle for INR 38446",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Merged colored PET inputs - batch B-4452",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "Tested 3959 pallets black HDPE - result: Rejected",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "What happened to batch B-3353?",
+    "intent": "query.history"
+  },
+  {
+    "text": "Show me all stretch film movements",
+    "intent": "query.history"
+  },
+  {
+    "text": "Trace the journey of LOT-6952",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Average quality grade for plastic scrap?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Shipped 6591 kg mixed plastic bales to RecoverTech Materials February 12",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "What's the source of clear PET at Finished Goods Store?",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Record 8605 bales shrink wrap bought from PureStream Materials for Rs.46500",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Check inventory for mixed plastic bales",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Outgoing shipment - 5158 kg HDPE pellets to CleanChain Supply",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Quality inspection: colored PET graded as Grade B",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Sorted black HDPE batch - 18.0 containers as A+",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Ran 1397 tons clear PET through washing at Storage Unit B",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "We acquired 3537 bags of post-consumer PET from PureStream Materials",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Record 6828 pieces HDPE regrind bought from RecoverTech Materials for $37365",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "HDPE bottles stock at Raw Material Store is 39.6 pallets",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "How much have we bought from RecycleMax Corp?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "List all purchases from GreenCycle Industries",
+    "intent": "query.history"
+  },
+  {
+    "text": "Batch of HDPE pellets tested and approved as A+",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Merged colored PET inputs - batch LOT-2106",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "Ran 6534 bags black HDPE through washing at Receiving Dock",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Total colored PET available?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Shipped 9054 bags colored PET to SustainaPack 25 Mar 2026",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Batch of plastic scrap tested and approved as Technical Grade",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Got 968 tons of rPET chips from EcoPlast Solutions at Receiving Dock",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "New batch: 83.6 bales PET preforms at Washing Plant",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "What's our bottle-grade PET inventory?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Classified 2283 pallets black HDPE as Premium",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Quality inspection: clear PET graded as B-",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "EcoPlast Solutions picked up 80.0 bales of food-grade PET",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "We bought 9873 kg of rPET chips from EnviroCollect Inc",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Classified 2636 bales plastic scrap as Premium",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Completed segregation of bottle-grade PET batch at Storage Unit B",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Processed 3881 kg PET preforms through wash line",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Dispatched 8783 pallets of food-grade PET to CleanChain Supply",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Cleaning completed for 8535 pallets recycled PET",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Pending orders from GreenLoop Suppliers?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "Add entry for 6700 bags of PP granules received at Pelletizing Unit",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Outgoing shipment - 27.5 containers colored PET to EarthFirst Materials",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "How much PET flakes do we have?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Washing treatment finished for batch of food-grade PET",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "What materials from ClearStream Plastics?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "QC result for PP regrind: Rejected",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Total flexible film waste available?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Where did this clear PET come from?",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Shipped 6681 pallets natural HDPE to GreenLoop Suppliers January 20",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Show lineage for rPET chips batch",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Incoming shipment: 81.2 containers recycled PET from GreenCycle Industries",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Ran 4531 containers PP granules through washing at Washing Plant",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "What's the current stock of rPET chips?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "New stock: 86.0 containers post-consumer PET from PlastiCycle Co",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "QC result for agricultural film: A+",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Show lineage for food-grade PET batch",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Show me HDPE pellets stock levels",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "What did we purchase on Friday?",
+    "intent": "query.history"
+  },
+  {
+    "text": "Delivery to PlastiCycle Co: 8534 tons plastic scrap",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Show material flow for BATCH-1162",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Inspection complete - HDPE bottles is Grade C",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Combined materials into batch - 68.6 tons total",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "Got 4355 MT of bottle-grade PET from GreenLoop Suppliers at Sorting Station 1",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Pending orders from PlastiCycle Co?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "What's our PP granules inventory?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "What's the yield for rPET chips?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Compare yields across materials",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Outgoing shipment - 33.4 kg stretch film to GreenCycle Industries",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Current stock of PET preforms: 4392 containers",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "We received 38.2 tons of LDPE film from EcoMat Trading",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Split clear PET into Rejected category - 24.7 containers",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "New batch: 2.7 kg PET preforms at Holding Area",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "We procured 54.1 containers of HDPE regrind from RecoverTech Materials",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Quality inspection: mixed plastic bales graded as Rejected",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Show me rPET chips stock levels",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "How many bales of stretch film in Washing Plant?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Sent out 1939 pallets plastic scrap from QC Lab",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Trace back food-grade PET to origin",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Dispatched 4351 tonnes of black HDPE to RecoverTech Materials",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "New stock: 70.5 tonnes LDPE film from NatureCycle",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Sent out 427 pallets HDPE bottles from Pelletizing Unit",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Average quality grade for PET preforms?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Show transactions for mixed rigid plastics",
+    "intent": "query.history"
+  },
+  {
+    "text": "Shipped 8064 tonnes plastic scrap to CleanChain Supply last Tuesday",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Sold 22.6 bags LDPE film to GreenLoop Suppliers for Rs.32371",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Inventory count: 9548 pieces of mixed plastic bales",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Log purchase of 1886 MT recycled PET from EcoMat Trading",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Incoming shipment: 43.9 tons shrink wrap from PureStream Materials",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "CircularPoly Ltd picked up 2546 kg of post-consumer PET",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "What's our throughput for February 17?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Trace back recycled PET to origin",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "What's our throughput for last month?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "History of PET flakes at Pelletizing Unit",
+    "intent": "query.history"
+  },
+  {
+    "text": "What's the yield for food-grade PET?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Trace the journey of LOT-2875",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Log purchase of 77.6 pallets PVC scrap from ClearStream Plastics",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "HDPE bottles wash done - 6785 bales output",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "List all purchases from GreenLoop Suppliers",
+    "intent": "query.history"
+  },
+  {
+    "text": "Show lineage for bottle-grade PET batch",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Log purchase of 3988 tonnes mixed rigid plastics from EcoMat Trading",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Made batch BATCH-9489 from colored PET",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "Show me PP granules stock levels",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Separated out 6039 containers of B- PP regrind",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Delivery to GreenCycle Industries: 7831 containers colored PET",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "QC failed for 18.3 tons of HDPE bottles",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Washed 4048 bales of flexible film waste",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Processed 18.0 kg clear PET through wash line",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Sent out 64.9 kg black HDPE from Finished Goods Store",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Batch of HDPE bottles tested and approved as Grade B",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Ran 120 containers LDPE film through washing at QC Lab",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Inspection complete - rPET chips is Rejected",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Sorted flexible film waste batch - 4485 pieces as Technical Grade",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Batch of black HDPE tested and approved as Rejected",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Inventory count: 6.3 bales of post-industrial HDPE",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "PureStream Materials delivery history",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "Total post-industrial HDPE available?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "How many tons of LDPE film in Dispatch Bay?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Show material flow for LOT-7799",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Inventory count: 4085 MT of rPET chips",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "How much did we dispatch 05/01/2026?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "List all purchases from EcoMat Trading",
+    "intent": "query.history"
+  },
+  {
+    "text": "HDPE regrind stock at Pelletizing Unit is 7056 bags",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Incoming shipment: 22.6 pallets HDPE pellets from GreenLoop Suppliers",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Washed 6586 tons of rPET chips",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "What materials from GreenCycle Industries?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "EnviroCollect Inc picked up 1026 bales of HDPE bottles",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Show transactions for agricultural film",
+    "intent": "query.history"
+  },
+  {
+    "text": "Trace the journey of BT-7189",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "New stock: 6294 pieces natural HDPE from CircularPoly Ltd",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Compare yields across materials",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Register incoming mixed plastic bales - 6088 tons from ClearStream Plastics",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Show me all flexible film waste movements",
+    "intent": "query.history"
+  },
+  {
+    "text": "How much did we dispatch last Tuesday?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Update inventory: recycled PET is now 4107 containers",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "We purchased 86.7 containers of PP granules from SustainaPack",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Completed segregation of plastic scrap batch at Quarantine Zone",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Show lineage for mixed rigid plastics batch",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Created batch from 694 kg of bottle-grade PET",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "Dispatched 9843 pallets of clear PET to EnviroCollect Inc",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Quality inspection: PET flakes graded as Grade B",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Combined materials into batch - 4150 pieces total",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "What's our mixed plastic bales inventory?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Trace back shrink wrap to origin",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "What happened to batch BATCH-9035?",
+    "intent": "query.history"
+  },
+  {
+    "text": "Update inventory: bottle-grade PET is now 4104 MT",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "How much rPET chips do we have?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Compare yields across materials",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Sorted recycled PET batch - 5324 tonnes as Grade B",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "2768 bags PP regrind passed QC as Food Grade",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Compare yields across materials",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "HDPE pellets wash done - 6834 tons output",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Segregated 4186 bags of clear PET into Grade B",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Incoming shipment: 16.6 pallets PET preforms from ClearStream Plastics",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "What materials from SustainaPack?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "CleanChain Supply delivery history",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "How much did we dispatch this morning?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Sold 7484 bags bottle-grade PET to GreenLoop Suppliers for INR 47018",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Processed 8710 pieces HDPE pellets through wash line",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "CleanChain Supply picked up 86.1 pallets of flexible film waste",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Stock adjustment for HDPE regrind at Raw Material Store",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Ran 7071 pallets mixed plastic bales through washing at Washing Plant",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Delivery to PureStream Materials: 333 kg HDPE pellets",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Record 28.0 kg flexible film waste bought from EnviroCollect Inc for INR 42429",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "How much have we bought from PlastiCycle Co?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "How much have we bought from CleanChain Supply?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "What happened to batch BT-3243?",
+    "intent": "query.history"
+  },
+  {
+    "text": "Created batch from 6.8 kg of PET preforms",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "Cleaning completed for 8845 MT colored PET",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Show material flow for LOT-6820",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Delivery to GreenCycle Industries: 2159 pieces HDPE regrind",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Show material flow for BATCH-9527",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "History of natural HDPE at Quarantine Zone",
+    "intent": "query.history"
+  },
+  {
+    "text": "How many tons of natural HDPE in Raw Material Store?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "List all transactions with RecycleMax Corp",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "Show transactions for PET flakes",
+    "intent": "query.history"
+  },
+  {
+    "text": "Separated out 5790 pieces of Rejected plastic scrap",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "3918 bales mixed plastic bales passed QC as A+",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Record 5033 bales stretch film bought from CleanChain Supply for INR 14280",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Show loss percentage for quality checked",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "CleanChain Supply delivery history",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "Separated out 2878 pallets of B- bottle-grade PET",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Total natural HDPE available?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Register incoming PET preforms - 4116 MT from PureStream Materials",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Washed 9390 tonnes of HDPE bottles",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Check inventory for plastic scrap",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Washing treatment finished for batch of PET flakes",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Show loss percentage for made batch",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Track PVC scrap from RecycleMax Corp",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Made batch BATCH-4187 from food-grade PET",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "Washing treatment finished for batch of bottle-grade PET",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "CleanChain Supply delivered 15.2 kg of HDPE regrind 2026-01-07",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Tested 14.4 tonnes PP granules - result: Grade C",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Average quality grade for black HDPE?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Update inventory: post-consumer PET is now 8175 bags",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Add entry for 4781 kg of stretch film received at Finished Goods Store",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Outgoing shipment - 50.0 pieces LDPE film to SustainaPack",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Add entry for 1868 pallets of clear PET received at Quarantine Zone",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Washed 6834 bales of HDPE bottles",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "RecoverTech Materials delivered 7966 kg of HDPE regrind on Friday",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "8486 bags natural HDPE sorted at Raw Material Store",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "What happened to batch BATCH-1958?",
+    "intent": "query.history"
+  },
+  {
+    "text": "9085 pieces post-consumer PET received from CleanChain Supply today",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "8814 MT recycled PET passed QC as Rejected",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "QC failed for 3802 tons of PP granules",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "How much did we dispatch 13/02/2026?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "stretch film wash done - 2454 bales output",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Register incoming HDPE regrind - 7616 bales from ClearStream Plastics",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Show me all flexible film waste movements",
+    "intent": "query.history"
+  },
+  {
+    "text": "Track food-grade PET from CircularPoly Ltd",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Where did this PP regrind come from?",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Compare yields across materials",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Sent out 90.7 bags PET preforms from Sorting Station 1",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "What's our plastic scrap inventory?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "RecoverTech Materials delivery history",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "Current stock of post-industrial HDPE: 28.3 MT",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "ReNew Plastics picked up 5667 MT of stretch film",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "QC result for PET preforms: A+",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Inventory count: 3645 pieces of plastic scrap",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "List all transactions with EnviroCollect Inc",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "Merged HDPE regrind inputs - batch BT-6603",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "Stock adjustment for PP regrind at Receiving Dock",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Made batch BATCH-7075 from PET preforms",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "What's the source of HDPE bottles at QC Lab?",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "PET preforms stock at Reject Storage is 7.1 bales",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Made batch BT-3928 from PP regrind",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "EarthFirst Materials delivered 84.1 bales of PP regrind 19 Feb 2026",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "What materials from CleanChain Supply?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "Outgoing shipment - 830 tonnes plastic scrap to ReNew Plastics",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Register incoming plastic scrap - 29.9 containers from SustainaPack",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Stock adjustment for stretch film at Raw Material Store",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Transaction history for on Friday",
+    "intent": "query.history"
+  },
+  {
+    "text": "QC failed for 1899 pieces of mixed rigid plastics",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "List all transactions with PlastiCycle Co",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "Where did this bottle-grade PET come from?",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Transaction history for 22/01/2026",
+    "intent": "query.history"
+  },
+  {
+    "text": "Log purchase of 4061 pieces agricultural film from GreenCycle Industries",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Batch of recycled PET tested and approved as Technical Grade",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Quality inspection: PET flakes graded as Rejected",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Segregated 3908 bags of PET flakes into A+",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "History of natural HDPE at Quarantine Zone",
+    "intent": "query.history"
+  },
+  {
+    "text": "Merged HDPE regrind inputs - batch B-8901",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "6300 tons mixed plastic bales passed QC as B-",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Completed segregation of black HDPE batch at Receiving Dock",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Completed segregation of plastic scrap batch at Distribution Center",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "EarthFirst Materials delivery history",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "RecoverTech Materials delivered 58.6 kg of colored PET on Monday",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "QC failed for 9457 tonnes of PP granules",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "New batch: 8273 containers PET flakes at Quarantine Zone",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "plastic scrap stock at Distribution Center is 1833 bales",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Show loss percentage for sorted",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Washed 79.6 bales of bottle-grade PET",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Inventory count: 8009 tonnes of PVC scrap",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "QC failed for 167 bags of bottle-grade PET",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Washed 32.2 containers of post-consumer PET",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "QC failed for 4989 pieces of rPET chips",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Combined materials into batch - 9581 MT total",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "Processed 87.9 pallets PET preforms through wash line",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "5144 containers black HDPE passed QC as B-",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "CircularPoly Ltd delivered 3798 containers of PP granules 18 Mar 2026",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Dispatched 7919 kg of PP granules to ClearStream Plastics",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Log purchase of 5600 kg PP granules from ClearStream Plastics",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Total purchases from CleanChain Supply?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Pending orders from GreenCycle Industries?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "Track food-grade PET from EarthFirst Materials",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Inventory count: 9681 bales of HDPE bottles",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Made batch B-5641 from PVC scrap",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "Where did this stretch film come from?",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Washed 7257 bales of stretch film",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "What's our throughput for 2026-03-14?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Created batch from 91.1 containers of mixed rigid plastics",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "Log purchase of 6219 bags mixed rigid plastics from GreenCycle Industries",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Combined materials into batch - 5442 pallets total",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "Shipped 20.5 kg rPET chips to CleanChain Supply today",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "We purchased 4516 pieces of PET preforms from CleanChain Supply",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Show transactions for PET flakes",
+    "intent": "query.history"
+  },
+  {
+    "text": "Washing treatment finished for batch of food-grade PET",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "agricultural film stock at Distribution Center is 5739 pallets",
+    "intent": "data_entry.inventory_update"
+  },
+  {
+    "text": "Total purchases from SustainaPack?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "What's the source of HDPE regrind at Pelletizing Unit?",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Show loss percentage for re-cleaned",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Segregated 1634 tonnes of food-grade PET into Rejected",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "NatureCycle delivered 9167 bags of HDPE bottles 21 Jan 2026",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Sent out 94.7 bags agricultural film from Finished Goods Store",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Sorted LDPE film batch - 3495 MT as Food Grade",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "plastic scrap wash done - 8411 pallets output",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Tested 7727 tonnes bottle-grade PET - result: Grade A",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Completed segregation of colored PET batch at Processing Facility A",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Log purchase of 454 tonnes mixed rigid plastics from ClearStream Plastics",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "55.4 tonnes natural HDPE sorted at Dispatch Bay",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Made batch BT-6935 from PET flakes",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "History of stretch film at Quarantine Zone",
+    "intent": "query.history"
+  },
+  {
+    "text": "We purchased 8761 pieces of flexible film waste from ReNew Plastics",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "QC result for HDPE bottles: B-",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Average quality grade for mixed rigid plastics?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "List all transactions with PureStream Materials",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "Tested 6816 containers stretch film - result: Technical Grade",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "5296 pieces plastic scrap sorted at Reject Storage",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "What's the yield for plastic scrap?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Trace back PET flakes to origin",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Total purchases from RecycleMax Corp?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Average quality grade for bottle-grade PET?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "Show material flow for BT-4360",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "What's the yield for recycled PET?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "How many bags of agricultural film in Dispatch Bay?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Got 5157 pieces of rPET chips from SustainaPack at QC Lab",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Total HDPE bottles available?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "QC result for LDPE film: Grade C",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "What's the yield for bottle-grade PET?",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "New stock: 49.2 MT mixed rigid plastics from NatureCycle",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Merged black HDPE inputs - batch BT-8836",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "Split natural HDPE into Grade C category - 682 pallets",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Completed segregation of PET preforms batch at Storage Unit B",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Combined materials into batch - 49.0 bags total",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "How much have we bought from PureStream Materials?",
+    "intent": "query.vendor"
+  },
+  {
+    "text": "Trace the journey of BT-1981",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Check inventory for post-consumer PET",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "QC result for HDPE pellets: Rejected",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Split post-consumer PET into Rejected category - 9404 containers",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Sold 4567 kg HDPE regrind to CleanChain Supply for INR 29210",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "Trace the journey of LOT-7188",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Got 20.8 bales of rPET chips from EarthFirst Materials at Processing Facility A",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "Inspection complete - clear PET is Food Grade",
+    "intent": "data_entry.quality_check"
+  },
+  {
+    "text": "Track rPET chips from CircularPoly Ltd",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "Compare yields across materials",
+    "intent": "query.analytics"
+  },
+  {
+    "text": "92.8 MT recycled PET sorted at Raw Material Store",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Segregated 7415 tons of food-grade PET into Grade A",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "Separated out 7335 kg of Grade A stretch film",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "3058 pallets LDPE film sorted at Raw Material Store",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "7972 tonnes PP granules received from CircularPoly Ltd last Tuesday",
+    "intent": "data_entry.purchase"
+  },
+  {
+    "text": "How much flexible film waste do we have?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "List all purchases from ClearStream Plastics",
+    "intent": "query.history"
+  },
+  {
+    "text": "Sold 1954 pallets black HDPE to GreenCycle Industries for EUR 39697",
+    "intent": "data_entry.dispatch"
+  },
+  {
+    "text": "What's the current stock of HDPE pellets?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Show me all PET flakes movements",
+    "intent": "query.history"
+  },
+  {
+    "text": "Sorted recycled PET batch - 56.8 containers as Food Grade",
+    "intent": "data_entry.segregation"
+  },
+  {
+    "text": "What's the current stock of food-grade PET?",
+    "intent": "query.quantity"
+  },
+  {
+    "text": "Ran 9070 containers black HDPE through washing at Processing Facility A",
+    "intent": "data_entry.washing"
+  },
+  {
+    "text": "Combined materials into batch - 36.9 pieces total",
+    "intent": "data_entry.batch_creation"
+  },
+  {
+    "text": "Where did this HDPE regrind come from?",
+    "intent": "query.traceability"
+  },
+  {
+    "text": "How many pallets of recycled PET in Finished Goods Store?",
+    "intent": "query.quantity"
+  }
+]

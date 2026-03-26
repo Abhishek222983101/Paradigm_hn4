@@ -241,3 +241,7 @@ Built at **[Hackathon Name]** · [Date]
 ## License
 
 MIT — free to use, adapt, and build on.
+
+## Additional Resources
+
+- [ML Notebooks & Extra Files (Google Drive)](https://drive.google.com/drive/folders/1fEQtSTAvyjBRWrlXBuXZ97FHPgQSLH1Q?usp=sharing)

@@ -1,0 +1,59 @@
+{
+  "base_model": "distilbert-base-uncased",
+  "num_labels": 12,
+  "label_names": [
+    "data_entry.batch_creation",
+    "data_entry.dispatch",
+    "data_entry.inventory_update",
+    "data_entry.purchase",
+    "data_entry.quality_check",
+    "data_entry.segregation",
+    "data_entry.washing",
+    "query.analytics",
+    "query.history",
+    "query.quantity",
+    "query.traceability",
+    "query.vendor"
+  ],
+  "label2id": {
+    "data_entry.batch_creation": 0,
+    "data_entry.dispatch": 1,
+    "data_entry.inventory_update": 2,
+    "data_entry.purchase": 3,
+    "data_entry.quality_check": 4,
+    "data_entry.segregation": 5,
+    "data_entry.washing": 6,
+    "query.analytics": 7,
+    "query.history": 8,
+    "query.quantity": 9,
+    "query.traceability": 10,
+    "query.vendor": 11
+  },
+  "id2label": {
+    "0": "data_entry.batch_creation",
+    "1": "data_entry.dispatch",
+    "2": "data_entry.inventory_update",
+    "3": "data_entry.purchase",
+    "4": "data_entry.quality_check",
+    "5": "data_entry.segregation",
+    "6": "data_entry.washing",
+    "7": "query.analytics",
+    "8": "query.history",
+    "9": "query.quantity",
+    "10": "query.traceability",
+    "11": "query.vendor"
+  },
+  "metrics": {
+    "accuracy": 0.7888888888888889,
+    "f1": 0.7819321193918894,
+    "precision": 0.8728177196804646,
+    "recall": 0.7888888888888889,
+    "train_loss": 3.6393333673477173
+  },
+  "training_date": "2026-03-26T06:25:17.149866",
+  "lora_config": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.1
+  }
+}
